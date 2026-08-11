@@ -1,349 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chef Kecik Boulangerie homepage concept" />
+  <title>Chef Kecik Boulangerie</title>
 
-    <title>Chef Kecik | Bakery & Culinary Academy</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
-        rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="announcement">
+      <span>Halal • Less Sweet • Made in Malaysia</span>
+      <span class="announcement-center">Free delivery for orders over RM250 (Selangor & KL)</span>
+      <a href="https://wa.me/60122413678" target="_blank" rel="noopener">Need help? WhatsApp us</a>
+    </div>
 
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar">
+    <nav class="navbar container">
+      <a class="brand" href="#top" aria-label="Chef Kecik home">
+        <span>CHEF KECIK</span>
+        <small>BOULANGERIE</small>
+      </a>
 
-            <div class="logo">
-                Chef <span>Kecik</span>
-            </div>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
 
+      <div class="nav-menu">
+        <a href="#top">Home</a>
+        <a href="#favourites">Shop</a>
+        <a href="#journal">Recipe</a>
+        <a href="#story">Media</a>
+        <a href="#story">About</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="academy.html">Academy</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+      <a class="btn btn-dark nav-cta" href="#favourites">Order Online</a>
+    </nav>
+  </header>
 
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">CRAFTED WITH CARE. SHARED WITH LOVE.</p>
+          <h1>Freshly baked.<br><em>Made to be remembered.</em></h1>
+          <p class="hero-text">
+            Thoughtfully crafted pastries and cakes, made with premium ingredients
+            and a whole lot of heart.
+          </p>
 
-            <button class="login-btn">
-                Login
-            </button>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="#favourites">Explore Our Pastries</a>
+            <a class="btn btn-light" href="#custom-cakes">Order a Cake</a>
+          </div>
 
-
-            <div class="hamburger">
-                ☰
-            </div>
-
-        </nav>
-    </header>
-
-
-
-    <!-- HERO -->
-    <section class="hero" id="home">
-
-        <div class="hero-content">
-
-            <h1>
-                Freshly Baked
-                Happiness Every Day
-            </h1>
-
-            <p>
-                Fresh pastries, artisan bakery,
-                specialty coffee and professional
-                baking classes.
-            </p>
-
-
-            <div>
-                <button class="primary-btn">
-                    Explore Menu
-                </button>
-
-                <button class="secondary-btn">
-                    Join Class
-                </button>
-            </div>
-
+          <div class="hero-features">
+            <div><span>✦</span><p>Freshly Made<br>Every Day</p></div>
+            <div><span>◇</span><p>Premium<br>Ingredients</p></div>
+            <div><span>♧</span><p>Made with Care<br>Always</p></div>
+          </div>
         </div>
 
-
-        <div class="hero-image">
-
-            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a" alt="Bakery">
-
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1400&q=85"
+              alt="Elegant cream cake with strawberries"
+            >
+          </div>
+          <span class="floating-note">Made for little celebrations</span>
         </div>
-
+      </div>
     </section>
 
-
-
-
-    <!-- CATEGORY -->
-
-    <section class="section" id="menu">
-
-        <h2>
-            Featured Categories
-        </h2>
-
-
-        <div class="card-grid">
-
-
-            <div class="card">
-
-                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a">
-
-                <h3>
-                    Pastry
-                </h3>
-
-                <p>
-                    Croissant, tart and premium desserts.
-                </p>
-
-                <a href="menu.html" class="card-btn">
-                    View Menu
-                </a>
-
-            </div>
-
-
-
-
-            <div class="card">
-
-                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff">
-
-                <h3>
-                    Bakery
-                </h3>
-
-                <p>
-                    Fresh bread baked daily.
-                </p>
-
-                <a href="menu.html" class="card-btn">
-                    View Menu
-                </a>
-
-            </div>
-
-
-
-
-
-            <div class="card">
-
-                <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f">
-
-                <h3>
-                    Hot Food
-                </h3>
-
-                <p>
-                    Delicious cafe meals.
-                </p>
-
-                <a href="menu.html" class="card-btn">
-                    View Menu
-                </a>
-
-            </div>
-
-
-
-
-
-            <div class="card">
-
-                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085">
-
-                <h3>
-                    Beverages
-                </h3>
-
-                <p>
-                    Coffee and refreshing drinks.
-                </p>
-
-                <a href="menu.html" class="card-btn">
-                    View Menu
-                </a>
-
-            </div>
-
-
+    <section class="section favourites" id="favourites">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">HANDPICKED FOR YOU</p>
+            <h2>Today’s favourites.</h2>
+          </div>
+          <a class="text-link" href="#">View all pastries <span>→</span></a>
         </div>
 
+        <div class="product-grid" id="productGrid"></div>
+
+        <div class="center-action reveal">
+          <a href="#" class="btn btn-light">View All Pastries</a>
+        </div>
+      </div>
     </section>
 
-
-
-
-
-    <!-- ABOUT -->
-
-    <section class="about" id="about">
-
-        <div>
-
-            <h2>
-                About Chef Kecik
-            </h2>
-
-
-            <p>
-                Chef Kecik is a modern bakery and culinary academy
-                that provides freshly baked products, premium cafe
-                experiences and professional baking education.
-            </p>
-
-
-            <button class="primary-btn">
-                Read More
-            </button>
-
-
+    <section class="story-strip section" id="story">
+      <div class="container story-grid">
+        <div class="story-copy reveal">
+          <p class="eyebrow">OUR STORY</p>
+          <h2>Baking moments.<br><em>Sharing joy.</em></h2>
+          <p>
+            Chef Kecik Boulangerie was born from a simple belief:
+            the best bakes come from real ingredients, patient hands, and a lot of care.
+          </p>
+          <a href="#" class="text-link">Learn more about us <span>→</span></a>
         </div>
 
-
-        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d">
-
-    </section>
-
-
-
-
-
-    <!-- SERVICES -->
-
-    <section class="section" id="services">
-
-        <h2>
-            Our Services
-        </h2>
-
-
-        <div class="service-grid">
-
-
-            <div class="service">
-                <h3>Cafe Dining</h3>
-                <p>Enjoy premium food and drinks.</p>
-            </div>
-
-
-            <div class="service">
-                <h3>Catering</h3>
-                <p>Events and corporate catering.</p>
-            </div>
-
-
-            <div class="service">
-                <h3>Custom Cakes</h3>
-                <p>Beautiful cakes for celebrations.</p>
-            </div>
-
-
-            <div class="service">
-                <h3>Baking Classes</h3>
-                <p>Learn from professional chefs.</p>
-            </div>
-
-
+        <div class="values reveal">
+          <article>
+            <span class="value-icon">✧</span>
+            <h3>Quality First</h3>
+            <p>Premium ingredients and no shortcuts.</p>
+          </article>
+          <article>
+            <span class="value-icon">♡</span>
+            <h3>Made with Heart</h3>
+            <p>Every bake is crafted with attention.</p>
+          </article>
+          <article>
+            <span class="value-icon">⌇</span>
+            <h3>Less Sweet</h3>
+            <p>Balanced sweetness so every bite feels right.</p>
+          </article>
         </div>
 
+        <div class="story-image reveal">
+          <img
+            src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1200&q=85"
+            alt="Baking ingredients on a bright table"
+          >
+        </div>
+      </div>
     </section>
 
+    <section class="section journal" id="journal">
+      <div class="container journal-card reveal">
+        <div class="journal-image">
+          <img
+            src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=1200&q=85"
+            alt="Chocolate layer cake"
+          >
+        </div>
+        <div class="journal-copy">
+          <p class="eyebrow">FROM OUR JOURNAL</p>
+          <h2>Classic Chocolate<br>Layer Cake</h2>
+          <p>
+            A timeless favourite for every chocolate lover.
+            Moist, rich and perfectly balanced.
+          </p>
+          <a class="text-link" href="#">Read the recipe <span>→</span></a>
 
+          <div class="journal-controls" aria-label="Journal carousel">
+            <span>01</span>
+            <div class="line"></div>
+            <span>03</span>
+            <button aria-label="Previous story">←</button>
+            <button aria-label="Next story">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-    <!-- WHY CHOOSE -->
-
-    <section class="why">
-
-
-        <h2>
-            Why Choose Us?
-        </h2>
-
-
-        <div class="features">
-
-            <div>
-                <h3>
-                    Fresh Ingredients
-                </h3>
-            </div>
-
-
-            <div>
-                <h3>
-                    Experienced Chefs
-                </h3>
-            </div>
-
-
-            <div>
-                <h3>
-                    Quality Guarantee
-                </h3>
-            </div>
-
-
-            <div>
-                <h3>
-                    Friendly Environment
-                </h3>
-            </div>
-
-
+    <section class="custom-cakes" id="custom-cakes">
+      <div class="container custom-card reveal">
+        <div class="custom-copy">
+          <p class="eyebrow">CELEBRATE BEAUTIFULLY</p>
+          <h2>Custom cakes for life’s<br><em>most meaningful moments.</em></h2>
+          <p>
+            From birthdays to weddings, we’ll help you create a cake that feels uniquely yours.
+          </p>
+          <a class="btn btn-dark" href="#contact">Design Your Cake</a>
         </div>
 
+        <div class="custom-image">
+          <img
+            src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&w=1200&q=85"
+            alt="Minimal elegant celebration cake"
+          >
+        </div>
+      </div>
     </section>
+  </main>
 
-    <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span>CHEF KECIK</span>
+          <small>BOULANGERIE</small>
+        </a>
+        <p>Crafting beautiful bakes with honest ingredients and heartfelt care.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="TikTok">TT</a>
+        </div>
+      </div>
 
-    <footer id="contact">
+      <div>
+        <h4>Shop</h4>
+        <a href="#">All Pastries</a>
+        <a href="#">Cakes</a>
+        <a href="#">Bread</a>
+        <a href="#">Gift Boxes</a>
+      </div>
 
+      <div>
+        <h4>Explore</h4>
+        <a href="#journal">Recipe</a>
+        <a href="#story">Media</a>
+        <a href="#story">About Us</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-        <h2>
-            Chef Kecik
-        </h2>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+60122413678">+60 12-241 3678</a>
+        <a href="mailto:hello@chefkecik.com">hello@chefkecik.com</a>
+        <p>Selangor, Malaysia</p>
+      </div>
 
+      <div class="newsletter">
+        <h4>Stay in the loop</h4>
+        <p>Fresh notes, new bakes and special offers.</p>
+        <form id="newsletterForm">
+          <input type="email" id="emailInput" placeholder="Your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <small id="newsletterMessage" role="status"></small>
+      </div>
+    </div>
 
-        <p>
-            Bakery & Culinary Academy
-        </p>
+    <div class="container footer-bottom">
+      <span>© 2026 Chef Kecik Boulangerie. Concept mockup.</span>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
 
-
-        <p>
-            © 2026 Chef Kecik. All Rights Reserved.
-        </p>
-
-
-    </footer>
-
-
-
-    <script src="js/script.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
