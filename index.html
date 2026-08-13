@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Chef Kecik Boulangerie homepage concept" />
-  <title>Chef Kecik Boulangerie</title>
+  <meta name="description" content="Chef Kecik homepage " />
+  <title>Chef Kecik </title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="site-header">
     <div class="announcement">
       <span>Halal • Less Sweet • Made in Malaysia</span>
-      <span class="announcement-center">Free delivery for orders over RM250 (Selangor & KL)</span>
-      <a href="https://wa.me/60122413678" target="_blank" rel="noopener">Need help? WhatsApp us</a>
+      <!-- <span class="announcement-center">Free delivery for orders over RM250 (Selangor & KL)</span> -->
+      <!-- <a href="https://wa.me/60122413678" target="_blank" rel="noopener">Need help? WhatsApp us</a> -->
     </div>
 
     <nav class="navbar container">
-      <a class="brand" href="#top" aria-label="Chef Kecik home">
+      <a class="brand" href="index.html" aria-label="Chef Kecik home">
         <span>CHEF KECIK</span>
-        <small>BOULANGERIE</small>
       </a>
 
       <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
@@ -32,157 +35,92 @@
       </button>
 
       <div class="nav-menu">
-        <a href="#top">Home</a>
-        <a href="#favourites">Shop</a>
-        <a href="#journal">Recipe</a>
-        <a href="#story">Media</a>
-        <a href="#story">About</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+
+        <div class="nav-dropdown">
+          <a href="#" class="dropdown-toggle">
+            Shop
+            <span>⌄</span>
+          </a>
+          <div class="dropdown-menu">
+            <a href="shoppe.html">Shoppe</a>
+          </div>
+        </div>
+
+        <a href="#">Baking Class</a>
+        <a href="#">Recipe</a>
+
+        <div class="nav-dropdown">
+          <a href="#" class="dropdown-toggle">
+            Outlet
+            <span>⌄</span>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#">Chef Kecik Eco Majestic</a>
+            <a href="#">Chef Kecik Seduduk</a>
+            <a href="#">Chef Kecik Tuah</a>
+          </div>
+        </div>
+
+        <a href="#">Event & Parties</a>
+
+        <div class="nav-dropdown">
+          <a href="#" class="dropdown-toggle">
+            Media
+            <span>⌄</span>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#">Award</a>
+            <a href="#">Celebration</a>
+          </div>
+        </div>
+
+        <a href="#">Contact</a>
       </div>
 
-      <a class="btn btn-dark nav-cta" href="#favourites">Order Online</a>
+      <!-- <a class="btn btn-dark nav-cta" href="#">Order Online</a> -->
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero">
+    <div class="hero">
       <div class="hero-inner container">
         <div class="hero-copy reveal">
           <p class="eyebrow">CRAFTED WITH CARE. SHARED WITH LOVE.</p>
-          <h1>Freshly baked.<br><em>Made to be remembered.</em></h1>
+          <h1>Welcome To<br><em>Chef Kecik.</em></h1>
           <p class="hero-text">
             Thoughtfully crafted pastries and cakes, made with premium ingredients
             and a whole lot of heart.
           </p>
 
-          <div class="hero-actions">
-            <a class="btn btn-dark" href="#favourites">Explore Our Pastries</a>
+          <!-- <div class="hero-actions">
+            <a class="btn btn-dark" href="#">Explore Our Pastries</a>
             <a class="btn btn-light" href="#custom-cakes">Order a Cake</a>
-          </div>
+          </div> -->
 
           <div class="hero-features">
-            <div><span>✦</span><p>Freshly Made<br>Every Day</p></div>
-            <div><span>◇</span><p>Premium<br>Ingredients</p></div>
-            <div><span>♧</span><p>Made with Care<br>Always</p></div>
+            <div><span>✦</span>
+              <p>Freshly Made<br>Every Day</p>
+            </div>
+            <div><span>◇</span>
+              <p>Premium<br>Ingredients</p>
+            </div>
+            <div><span>♧</span>
+              <p>Made with Care<br>Always</p>
+            </div>
           </div>
         </div>
 
         <div class="hero-visual reveal">
           <div class="hero-image-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1400&q=85"
-              alt="Elegant cream cake with strawberries"
-            >
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1400&q=85"
+              alt="Elegant cream cake with strawberries">
           </div>
-          <span class="floating-note">Made for little celebrations</span>
+          <!-- <span class="floating-note">Made for little celebrations</span> -->
         </div>
       </div>
-    </section>
-
-    <section class="section favourites" id="favourites">
-      <div class="container">
-        <div class="section-heading reveal">
-          <div>
-            <p class="eyebrow">HANDPICKED FOR YOU</p>
-            <h2>Today’s favourites.</h2>
-          </div>
-          <a class="text-link" href="#">View all pastries <span>→</span></a>
-        </div>
-
-        <div class="product-grid" id="productGrid"></div>
-
-        <div class="center-action reveal">
-          <a href="#" class="btn btn-light">View All Pastries</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="story-strip section" id="story">
-      <div class="container story-grid">
-        <div class="story-copy reveal">
-          <p class="eyebrow">OUR STORY</p>
-          <h2>Baking moments.<br><em>Sharing joy.</em></h2>
-          <p>
-            Chef Kecik Boulangerie was born from a simple belief:
-            the best bakes come from real ingredients, patient hands, and a lot of care.
-          </p>
-          <a href="#" class="text-link">Learn more about us <span>→</span></a>
-        </div>
-
-        <div class="values reveal">
-          <article>
-            <span class="value-icon">✧</span>
-            <h3>Quality First</h3>
-            <p>Premium ingredients and no shortcuts.</p>
-          </article>
-          <article>
-            <span class="value-icon">♡</span>
-            <h3>Made with Heart</h3>
-            <p>Every bake is crafted with attention.</p>
-          </article>
-          <article>
-            <span class="value-icon">⌇</span>
-            <h3>Less Sweet</h3>
-            <p>Balanced sweetness so every bite feels right.</p>
-          </article>
-        </div>
-
-        <div class="story-image reveal">
-          <img
-            src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1200&q=85"
-            alt="Baking ingredients on a bright table"
-          >
-        </div>
-      </div>
-    </section>
-
-    <section class="section journal" id="journal">
-      <div class="container journal-card reveal">
-        <div class="journal-image">
-          <img
-            src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=1200&q=85"
-            alt="Chocolate layer cake"
-          >
-        </div>
-        <div class="journal-copy">
-          <p class="eyebrow">FROM OUR JOURNAL</p>
-          <h2>Classic Chocolate<br>Layer Cake</h2>
-          <p>
-            A timeless favourite for every chocolate lover.
-            Moist, rich and perfectly balanced.
-          </p>
-          <a class="text-link" href="#">Read the recipe <span>→</span></a>
-
-          <div class="journal-controls" aria-label="Journal carousel">
-            <span>01</span>
-            <div class="line"></div>
-            <span>03</span>
-            <button aria-label="Previous story">←</button>
-            <button aria-label="Next story">→</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="custom-cakes" id="custom-cakes">
-      <div class="container custom-card reveal">
-        <div class="custom-copy">
-          <p class="eyebrow">CELEBRATE BEAUTIFULLY</p>
-          <h2>Custom cakes for life’s<br><em>most meaningful moments.</em></h2>
-          <p>
-            From birthdays to weddings, we’ll help you create a cake that feels uniquely yours.
-          </p>
-          <a class="btn btn-dark" href="#contact">Design Your Cake</a>
-        </div>
-
-        <div class="custom-image">
-          <img
-            src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&w=1200&q=85"
-            alt="Minimal elegant celebration cake"
-          >
-        </div>
-      </div>
-    </section>
+    </div>
   </main>
 
   <footer class="footer" id="contact">
@@ -190,7 +128,6 @@
       <div>
         <a class="brand footer-brand" href="#top">
           <span>CHEF KECIK</span>
-          <small>BOULANGERIE</small>
         </a>
         <p>Crafting beautiful bakes with honest ingredients and heartfelt care.</p>
         <div class="socials">
@@ -245,4 +182,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
