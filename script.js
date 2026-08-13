@@ -1,91 +1,172 @@
 // =========================================
-// MOBILE MENU
+// LOAD COMPONENTS
 // =========================================
 
-const menuToggle = document.querySelector(".menu-toggle");
-const navMenu = document.querySelector(".nav-menu");
+document.addEventListener("DOMContentLoaded", function () {
 
-if (menuToggle && navMenu) {
+  // =========================================
+  // LOAD NAVBAR
+  // =========================================
 
-    menuToggle.addEventListener("click", () => {
+  fetch("components/navbar.html")
+    .then(response => response.text())
+    .then(data => {
 
-        const isOpen = navMenu.classList.toggle("open");
+      const navbar = document.getElementById("navbar");
 
-        menuToggle.setAttribute(
-            "aria-expanded",
-            String(isOpen)
-        );
+      if (navbar) {
+        navbar.innerHTML = data;
+        // initializeNavbar();
+      }
+
+    })
+    .catch(error => {
+      console.error("Error loading navbar:", error);
     });
 
 
-    // Close menu after clicking a navigation link
+  // =========================================
+  // LOAD FOOTER
+  // =========================================
 
-    navMenu.querySelectorAll("a").forEach((link) => {
+  fetch("components/footer.html")
+    .then(response => response.text())
+    .then(data => {
 
-        link.addEventListener("click", () => {
+      const footer = document.getElementById("footer");
 
-            navMenu.classList.remove("open");
+      if (footer) {
+        footer.innerHTML = data;
+        // initializeNewsletter();
+      }
 
-            menuToggle.setAttribute(
-                "aria-expanded",
-                "false"
-            );
-        });
-
+    })
+    .catch(error => {
+      console.error("Error loading footer:", error);
     });
-
-}
-
-
-// =========================================
-// NEWSLETTER
-// =========================================
-
-const newsletterForm =
-    document.getElementById("newsletterForm");
-
-const newsletterMessage =
-    document.getElementById("newsletterMessage");
-
-if (newsletterForm && newsletterMessage) {
-
-    newsletterForm.addEventListener("submit", (event) => {
-
-        event.preventDefault();
-
-        const emailInput =
-            document.getElementById("emailInput");
-
-        const email =
-            emailInput.value.trim();
-
-        if (!email) {
-            return;
-        }
-
-        newsletterMessage.textContent =
-            "Thank you. You’re on the list.";
-
-        newsletterForm.reset();
-
-    });
-
-}
+    
 
 
-// =========================================
-// HERO REVEAL
-// =========================================
+  // =========================================
+  // LOAD OUTLET
+  // =========================================
 
-// Show the hero immediately
-// so it does not disappear while waiting
-// for the scroll observer.
+  if (document.querySelector(".outlet-info")) {
+    loadOutlet();
+  }
 
-document
+
+  // =========================================
+  // HERO REVEAL
+  // =========================================
+
+  document
     .querySelectorAll(".hero .reveal")
     .forEach((element) => {
 
-        element.classList.add("visible");
+      element.classList.add("visible");
 
     });
+
+});
+
+
+// =========================================
+// OUTLET
+// =========================================
+
+function loadOutlet() {
+
+  const params =
+    new URLSearchParams(window.location.search);
+
+  const outlet =
+    params.get("outlet");
+
+
+  const outletSections =
+    document.querySelectorAll(".outlet-info");
+
+
+  // Hide all outlets first
+
+  outletSections.forEach(section => {
+
+    section.style.display = "none";
+
+  });
+
+
+  // =========================================
+  // SHOW SELECTED OUTLET
+  // =========================================
+
+  if (outlet === "eco-majestic") {
+
+    document.getElementById("eco-majestic")
+      .style.display = "block";
+
+
+  } else if (outlet === "seduduk") {
+
+    document.getElementById("seduduk")
+      .style.display = "block";
+
+
+  } else if (outlet === "tuah") {
+
+    document.getElementById("tuah")
+      .style.display = "block";
+
+
+  } else {
+
+    // Default outlet
+
+    document.getElementById("eco-majestic")
+      .style.display = "block";
+
+  }
+
+}
+
+  // =========================================
+  // MOBILE MENU
+  // =========================================
+
+  // if (menuToggle && navMenu) {
+
+  //   menuToggle.addEventListener("click", () => {
+
+  //     const isOpen =
+  //       navMenu.classList.toggle("open");
+
+
+  //     menuToggle.setAttribute(
+  //       "aria-expanded",
+  //       String(isOpen)
+  //     );
+
+  //   });
+
+
+  //   // Close menu after clicking a link
+
+  //   navMenu.querySelectorAll("a").forEach((link) => {
+
+  //     link.addEventListener("click", () => {
+
+  //       navMenu.classList.remove("open");
+
+  //       menuToggle.setAttribute(
+  //         "aria-expanded",
+  //         "false"
+  //       );
+
+  //     });
+
+  //   });
+
+  // }
+
 
