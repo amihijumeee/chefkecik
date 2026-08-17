@@ -758,6 +758,120 @@ h2 em {
   transform: translateY(0);
 }
 
+
+/* =========================================
+   OUTLET PAGE
+========================================= */
+
+.outlet-page {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.outlet-info {
+  background: #ffffff;
+  padding: 40px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.outlet-info h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.outlet-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.outlet-images img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* .outlet-map {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 1px solid var(--line);
+}
+
+.outlet-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+} */
+
+.outlet-details {
+  text-align: center;
+}
+
+.outlet-details h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.outlet-details p {
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.maps-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 25px;
+
+  background: var(--brown);
+  color: white;
+
+  text-decoration: none;
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.maps-button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+
+/* =========================================
+   OUTLET MOBILE
+========================================= */
+
+@media (max-width: 620px) {
+
+  .outlet-page {
+    width: calc(100% - 28px);
+    padding: 50px 0;
+  }
+
+  .outlet-info {
+    padding: 25px;
+  }
+
+  .outlet-images {
+    grid-template-columns: 1fr;
+  }
+
+  .outlet-images img {
+    height: 250px;
+  }
+
+}
+
 @media (max-width: 1050px) {
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
