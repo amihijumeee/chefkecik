@@ -169,4 +169,456 @@ function loadOutlet() {
 
   // }
 
+  /* ============================================================
+   SHOPPE CATEGORY FILTER + SORT
+============================================================ */
+
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+
+
+    /* ========================================================
+       GET SHOPPE ELEMENTS
+    ======================================================== */
+
+    const shoppeGrid =
+      document.getElementById(
+        "shoppeProductGrid"
+      );
+
+
+    /*
+      If this is not shoppe.html,
+      stop this code.
+
+      This prevents errors on
+      homepage, outlet, academy etc.
+    */
+
+    if (!shoppeGrid) {
+      return;
+    }
+
+
+
+    const productCards =
+      Array.from(
+        document.querySelectorAll(
+          ".shoppe-product-card"
+        )
+      );
+
+
+    const filterButtons =
+      document.querySelectorAll(
+        ".shoppe-page [data-filter]"
+      );
+
+
+    const categoryButtons =
+      document.querySelectorAll(
+        ".shoppe-page .category-btn"
+      );
+
+
+    const sortSelect =
+      document.getElementById(
+        "sortProducts"
+      );
+
+
+    const productCount =
+      document.getElementById(
+        "productCount"
+      );
+
+
+
+    /* ========================================================
+       CURRENT SETTINGS
+    ======================================================== */
+
+    let currentCategory =
+      "all";
+
+
+    let currentSort =
+      "latest";
+
+
+
+    /* ========================================================
+       UPDATE PRODUCT COUNT
+    ======================================================== */
+
+    function updateProductCount() {
+
+
+      const visibleProducts =
+        productCards.filter(
+          card =>
+            card.style.display !==
+            "none"
+        );
+
+
+      const total =
+        visibleProducts.length;
+
+
+      if (total === 0) {
+
+
+        productCount.textContent =
+          "Showing 0 products";
+
+
+      }
+
+      else {
+
+
+        productCount.textContent =
+          `Showing 1–${total} of ${total} products`;
+
+
+      }
+
+
+    }
+
+
+
+    /* ========================================================
+       FILTER PRODUCTS
+    ======================================================== */
+
+    function filterProducts() {
+
+
+      productCards.forEach(
+        card => {
+
+
+          const productCategory =
+            card.dataset.category;
+
+
+          /*
+            ALL PRODUCTS
+          */
+
+          if (
+            currentCategory === "all"
+          ) {
+
+
+            card.style.display =
+              "";
+
+
+          }
+
+
+          /*
+            SPECIFIC CATEGORY
+          */
+
+          else if (
+            productCategory ===
+            currentCategory
+          ) {
+
+
+            card.style.display =
+              "";
+
+
+          }
+
+
+          /*
+            HIDE OTHER PRODUCTS
+          */
+
+          else {
+
+
+            card.style.display =
+              "none";
+
+
+          }
+
+
+        }
+      );
+
+
+      updateProductCount();
+
+
+    }
+
+
+
+    /* ========================================================
+       SORT PRODUCTS
+    ======================================================== */
+
+    function sortProducts() {
+
+
+      const sortedProducts =
+        [...productCards];
+
+
+
+      /* ===============================
+         LATEST / ORIGINAL ORDER
+      =============================== */
+
+      if (
+        currentSort === "latest"
+      ) {
+
+
+        sortedProducts.sort(
+          (a, b) => {
+
+
+            return (
+              Number(
+                a.dataset.order
+              ) -
+
+              Number(
+                b.dataset.order
+              )
+            );
+
+
+          }
+        );
+
+
+      }
+
+
+
+      /* ===============================
+         LOWEST PRICE FIRST
+      =============================== */
+
+      else if (
+        currentSort === "low"
+      ) {
+
+
+        sortedProducts.sort(
+          (a, b) => {
+
+
+            return (
+              Number(
+                a.dataset.price
+              ) -
+
+              Number(
+                b.dataset.price
+              )
+            );
+
+
+          }
+        );
+
+
+      }
+
+
+
+      /* ===============================
+         HIGHEST PRICE FIRST
+      =============================== */
+
+      else if (
+        currentSort === "high"
+      ) {
+
+
+        sortedProducts.sort(
+          (a, b) => {
+
+
+            return (
+              Number(
+                b.dataset.price
+              ) -
+
+              Number(
+                a.dataset.price
+              )
+            );
+
+
+          }
+        );
+
+
+      }
+
+
+
+      /* ===============================
+         PUT PRODUCTS BACK IN GRID
+         IN NEW ORDER
+      =============================== */
+
+      sortedProducts.forEach(
+        card => {
+
+
+          shoppeGrid.appendChild(
+            card
+          );
+
+
+        }
+      );
+
+
+      /*
+        Keep category filter active
+        after sorting
+      */
+
+      filterProducts();
+
+
+    }
+
+
+
+    /* ========================================================
+       CATEGORY BUTTONS
+    ======================================================== */
+
+    filterButtons.forEach(
+      button => {
+
+
+        button.addEventListener(
+          "click",
+          function (event) {
+
+
+            event.preventDefault();
+
+
+            currentCategory =
+              this.dataset.filter;
+
+
+
+            /* ===========================
+               REMOVE ACTIVE STYLE
+            =========================== */
+
+            categoryButtons.forEach(
+              categoryButton => {
+
+
+                categoryButton
+                  .classList
+                  .remove(
+                    "active"
+                  );
+
+
+              }
+            );
+
+
+
+            /* ===========================
+               FIND MATCHING CATEGORY
+            =========================== */
+
+            const activeCategoryButton =
+              document.querySelector(
+
+                `.shoppe-page .category-btn[data-filter="${currentCategory}"]`
+
+              );
+
+
+
+            /* ===========================
+               ACTIVATE CATEGORY
+            =========================== */
+
+            if (
+              activeCategoryButton
+            ) {
+
+
+              activeCategoryButton
+                .classList
+                .add(
+                  "active"
+                );
+
+
+            }
+
+
+
+            /* ===========================
+               FILTER PRODUCTS
+            =========================== */
+
+            filterProducts();
+
+
+          }
+        );
+
+
+      }
+    );
+
+
+
+    /* ========================================================
+       SORT DROPDOWN
+    ======================================================== */
+
+    sortSelect.addEventListener(
+      "change",
+      function () {
+
+
+        currentSort =
+          this.value;
+
+
+        sortProducts();
+
+
+      }
+    );
+
+
+
+    /* ========================================================
+       FIRST LOAD
+    ======================================================== */
+
+    filterProducts();
+
+
+  }
+);
 
