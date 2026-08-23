@@ -4,44 +4,27 @@
 <head>
   <meta charset="UTF-8" />
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta
-    name="description"
-    content="Chef Kecik Shoppe"
-  />
+  <meta name="description" content="Chef Kecik Shoppe" />
 
   <title>Chef Kecik | Shoppe</title>
 
 
   <!-- GOOGLE FONTS -->
 
-  <link
-    rel="preconnect"
-    href="https://fonts.googleapis.com"
-  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
-    rel="stylesheet"
-  >
+    rel="stylesheet">
 
 
   <!-- SHARED CSS -->
 
-  <link
-    rel="stylesheet"
-    href="style.css"
-  />
+  <link rel="stylesheet" href="style.css" />
 
 </head>
 
@@ -61,472 +44,409 @@
        SHOPPE PAGE
   ========================== -->
 
-  <main
-    id="top"
-    class="shoppe-page"
-  >
+  <main id="top">
+
+    <div class="hero">
+      <div class="shoppe-page">
+        <section class="shoppe-container">
 
 
-    <section class="shoppe-container">
-
-
-      <!-- =========================
+          <!-- =========================
            LEFT SIDEBAR
       ========================== -->
 
-      <aside class="shop-sidebar">
+          <aside class="shop-sidebar">
 
 
-        <div class="shop-intro">
+            <div class="shop-intro">
 
 
-          <h1>
-            SHOPPE
-          </h1>
+              <h1>
+                SHOPPE
+              </h1>
 
 
-          <div class="shop-decoration">
+              <div class="shop-decoration">
 
-            <span></span>
+                <span></span>
 
-            <div class="heart">
-              ♥
+                <div class="heart">
+                  ♥
+                </div>
+
+                <span></span>
+
+              </div>
+
+
+              <p>
+                Discover our handmade cookies,
+                baked with quality ingredients
+                and lots of love.
+              </p>
+
+
+              <!-- ALL PRODUCTS MAIN BUTTON -->
+
+              <a href="#products" class="all-products-main" data-filter="all">
+
+                <span>🛍</span>
+
+                All Products
+
+              </a>
+
+
             </div>
 
-            <span></span>
-
-          </div>
 
 
-          <p>
-            Discover our handmade cookies,
-            baked with quality ingredients
-            and lots of love.
-          </p>
-
-
-          <!-- ALL PRODUCTS MAIN BUTTON -->
-
-          <a
-            href="#products"
-            class="all-products-main"
-            data-filter="all"
-          >
-
-            <span>🛍</span>
-
-            All Products
-
-          </a>
-
-
-        </div>
-
-
-
-        <!-- =========================
+            <!-- =========================
              CATEGORY
         ========================== -->
 
-        <div class="category-box">
+            <div class="category-box">
 
 
-          <h3>
-            CATEGORIES
-          </h3>
+              <h3>
+                CATEGORIES
+              </h3>
 
 
-          <!-- ALL PRODUCTS -->
+              <!-- ALL PRODUCTS -->
 
-          <a
-            href="#products"
-            class="category-btn active"
-            data-filter="all"
-          >
+              <a href="#products" class="category-btn active" data-filter="all">
 
-            <span>🛍</span>
+                <span>🛍</span>
 
-            All Products
+                All Products
 
-          </a>
+              </a>
 
 
-          <!-- COOKIES -->
+              <!-- COOKIES -->
 
-          <a
-            href="#products"
-            class="category-btn"
-            data-filter="cookies"
-          >
+              <a href="#products" class="category-btn" data-filter="cookies">
 
-            <span>🍪</span>
+                <span>🍪</span>
 
-            Cookies
+                Cookies
 
-          </a>
+              </a>
 
 
-        </div>
+            </div>
 
 
-      </aside>
+          </aside>
 
 
 
-      <!-- =========================
+          <!-- =========================
            PRODUCTS
       ========================== -->
 
-      <section
-        class="shop-products"
-        id="products"
-      >
+          <section class="shop-products" id="products">
 
 
-        <!-- =========================
+            <!-- =========================
              TOP BAR
         ========================== -->
 
-        <div class="shop-toolbar">
+            <div class="shop-toolbar">
 
 
-          <div class="sort-box">
+              <div class="sort-box">
 
 
-            <label for="sortProducts">
+                <label for="sortProducts">
 
-              Sort by:
+                  Sort by:
 
-            </label>
-
-
-            <select id="sortProducts">
+                </label>
 
 
-              <option value="latest">
-
-                Latest
-
-              </option>
+                <select id="sortProducts">
 
 
-              <option value="low">
+                  <option value="latest">
 
-                Price: Low to High
+                    Latest
 
-              </option>
-
-
-              <option value="high">
-
-                Price: High to Low
-
-              </option>
+                  </option>
 
 
-            </select>
+                  <option value="low">
+
+                    Price: Low to High
+
+                  </option>
 
 
-          </div>
+                  <option value="high">
+
+                    Price: High to Low
+
+                  </option>
 
 
-          <p
-            class="product-count"
-            id="productCount"
-          >
-
-            Showing 1–3 of 3 products
-
-          </p>
+                </select>
 
 
-        </div>
+              </div>
+
+
+              <p class="product-count" id="productCount">
+
+                Showing 1–3 of 3 products
+
+              </p>
+
+
+            </div>
 
 
 
-        <!-- =========================
+            <!-- =========================
              PRODUCT GRID
         ========================== -->
 
-        <div
-          class="shoppe-product-grid"
-          id="shoppeProductGrid"
-        >
+            <div class="shoppe-product-grid" id="shoppeProductGrid">
 
 
 
-          <!-- ==================================================
+              <!-- ==================================================
                PRODUCT 1
                BLACK CARAMEL SABLE
           =================================================== -->
 
-          <article
-            class="shoppe-product-card"
-            data-category="cookies"
-            data-price="41"
-            data-name="Black Caramel Sable By Chef Kecik"
-            data-order="1"
-          >
+              <article class="shoppe-product-card" data-category="cookies" data-price="41"
+                data-name="Black Caramel Sable By Chef Kecik" data-order="1">
 
 
-            <a
-              href="https://shopee.com.my/Black-Caramel-Sable-By-Chef-Kecik-i.274865948.26364693726?extraParams=%7B%22display_model_id%22%3A246825459301%2C%22model_selection_logic%22%3A3%7D"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="shoppe-product-image"
-            >
+                <a href="https://shopee.com.my/Black-Caramel-Sable-By-Chef-Kecik-i.274865948.26364693726?extraParams=%7B%22display_model_id%22%3A246825459301%2C%22model_selection_logic%22%3A3%7D"
+                  target="_blank" rel="noopener noreferrer" class="shoppe-product-image">
 
 
-              <img
-                src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=85"
-                alt="Black Caramel Sable By Chef Kecik"
-              >
+                  <img
+                    src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=85"
+                    alt="Black Caramel Sable By Chef Kecik">
 
 
-              <span class="product-heart">
+                  <span class="product-heart">
 
-                ♡
+                    ♡
 
-              </span>
+                  </span>
 
 
-            </a>
+                </a>
 
 
 
-            <div class="shoppe-product-info">
+                <div class="shoppe-product-info">
 
 
-              <h3>
+                  <h3>
 
-                Black Caramel Sable By Chef Kecik
+                    Black Caramel Sable By Chef Kecik
 
-              </h3>
-
-
-              <p class="shoppe-product-description">
-
-                Crispy on the outside,
-                soft and chewy inside
-                with rich chocolate chips.
-
-              </p>
+                  </h3>
 
 
-              <p class="shoppe-product-price">
+                  <p class="shoppe-product-description">
 
-                RM 41.00
+                    Crispy on the outside,
+                    soft and chewy inside
+                    with rich chocolate chips.
 
-              </p>
-
-
-              <a
-                href="https://shopee.com.my/Black-Caramel-Sable-By-Chef-Kecik-i.274865948.26364693726?extraParams=%7B%22display_model_id%22%3A246825459301%2C%22model_selection_logic%22%3A3%7D"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="shoppe-add-cart"
-              >
-
-                <span>
-                  🛒
-                </span>
-
-                Add to Cart
-
-              </a>
+                  </p>
 
 
-            </div>
+                  <p class="shoppe-product-price">
+
+                    RM 41.00
+
+                  </p>
 
 
-          </article>
+                  <a href="https://shopee.com.my/Black-Caramel-Sable-By-Chef-Kecik-i.274865948.26364693726?extraParams=%7B%22display_model_id%22%3A246825459301%2C%22model_selection_logic%22%3A3%7D"
+                    target="_blank" rel="noopener noreferrer" class="shoppe-add-cart">
+
+                    <span>
+                      🛒
+                    </span>
+
+                    Shoppe
+
+                  </a>
+
+
+                </div>
+
+
+              </article>
 
 
 
 
-          <!-- ==================================================
+              <!-- ==================================================
                PRODUCT 2
                SEA SALT CHOCOLATE CHIPS SABLE
           =================================================== -->
 
-          <article
-            class="shoppe-product-card"
-            data-category="cookies"
-            data-price="41"
-            data-name="Sea Salt Chocolate Chips Sable by Chef Kecik"
-            data-order="2"
-          >
+              <article class="shoppe-product-card" data-category="cookies" data-price="41"
+                data-name="Sea Salt Chocolate Chips Sable by Chef Kecik" data-order="2">
 
 
-            <a
-              href="https://shopee.com.my/Sea-Salt-Chocolate-Chips-Sable-by-Chef-Kecik-i.274865948.28364447330?extraParams=%7B%22display_model_id%22%3A187888442405%2C%22model_selection_logic%22%3A3%7D"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="shoppe-product-image"
-            >
+                <a href="https://shopee.com.my/Sea-Salt-Chocolate-Chips-Sable-by-Chef-Kecik-i.274865948.28364447330?extraParams=%7B%22display_model_id%22%3A187888442405%2C%22model_selection_logic%22%3A3%7D"
+                  target="_blank" rel="noopener noreferrer" class="shoppe-product-image">
 
 
-              <img
-                src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=900&q=85"
-                alt="Sea Salt Chocolate Chips Sable"
-              >
+                  <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=900&q=85"
+                    alt="Sea Salt Chocolate Chips Sable">
 
 
-              <span class="product-heart">
+                  <span class="product-heart">
 
-                ♡
+                    ♡
 
-              </span>
+                  </span>
 
 
-            </a>
+                </a>
 
 
 
-            <div class="shoppe-product-info">
+                <div class="shoppe-product-info">
 
 
-              <h3>
+                  <h3>
 
-                Sea Salt Chocolate Chips Sable by Chef Kecik
+                    Sea Salt Chocolate Chips Sable by Chef Kecik
 
-              </h3>
-
-
-              <p class="shoppe-product-description">
-
-                Buttery sable cookies with rich chocolate
-                chips and a light sea salt finish for a
-                balanced sweet and savoury taste.
-
-              </p>
+                  </h3>
 
 
-              <p class="shoppe-product-price">
+                  <p class="shoppe-product-description">
 
-                RM 41.00
+                    Buttery sable cookies with rich chocolate
+                    chips and a light sea salt finish for a
+                    balanced sweet and savoury taste.
 
-              </p>
-
-
-              <a
-                href="https://shopee.com.my/Sea-Salt-Chocolate-Chips-Sable-by-Chef-Kecik-i.274865948.28364447330?extraParams=%7B%22display_model_id%22%3A187888442405%2C%22model_selection_logic%22%3A3%7D"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="shoppe-add-cart"
-              >
-
-                <span>
-                  🛒
-                </span>
-
-                Add to Cart
-
-              </a>
+                  </p>
 
 
-            </div>
+                  <p class="shoppe-product-price">
+
+                    RM 41.00
+
+                  </p>
 
 
-          </article>
+                  <a href="https://shopee.com.my/Sea-Salt-Chocolate-Chips-Sable-by-Chef-Kecik-i.274865948.28364447330?extraParams=%7B%22display_model_id%22%3A187888442405%2C%22model_selection_logic%22%3A3%7D"
+                    target="_blank" rel="noopener noreferrer" class="shoppe-add-cart">
+
+                    <span>
+                      🛒
+                    </span>
+
+                    Shoppe
+
+                  </a>
+
+
+                </div>
+
+
+              </article>
 
 
 
 
-          <!-- ==================================================
+              <!-- ==================================================
                PRODUCT 3
                RB VANILLA
           =================================================== -->
 
-          <article
-            class="shoppe-product-card"
-            data-category="others"
-            data-price="29"
-            data-name="RB Vanilla 240ml by Chef Kecik"
-            data-order="3"
-          >
+              <article class="shoppe-product-card" data-category="others" data-price="29"
+                data-name="RB Vanilla 240ml by Chef Kecik" data-order="3">
 
 
-            <a
-              href="https://shopee.com.my/RB-Vanilla-240ml-by-Chef-Kecik-i.274865948.9809407828?extraParams=%7B%22display_model_id%22%3A73296271158%2C%22model_selection_logic%22%3A3%7D"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="shoppe-product-image"
-            >
+                <a href="https://shopee.com.my/RB-Vanilla-240ml-by-Chef-Kecik-i.274865948.9809407828?extraParams=%7B%22display_model_id%22%3A73296271158%2C%22model_selection_logic%22%3A3%7D"
+                  target="_blank" rel="noopener noreferrer" class="shoppe-product-image">
 
 
-              <img
-                src="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=900&q=85"
-                alt="RB Vanilla 240ml by Chef Kecik"
-              >
+                  <img
+                    src="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=900&q=85"
+                    alt="RB Vanilla 240ml by Chef Kecik">
 
 
-              <span class="product-heart">
+                  <span class="product-heart">
 
-                ♡
+                    ♡
 
-              </span>
+                  </span>
 
 
-            </a>
+                </a>
 
 
 
-            <div class="shoppe-product-info">
+                <div class="shoppe-product-info">
 
 
-              <h3>
+                  <h3>
 
-                RB Vanilla 240ml by Chef Kecik
+                    RB Vanilla 240ml by Chef Kecik
 
-              </h3>
-
-
-              <p class="shoppe-product-description">
-
-                A versatile vanilla flavouring ideal for
-                cakes, cookies, desserts, drinks and
-                everyday baking.
-
-              </p>
+                  </h3>
 
 
-              <p class="shoppe-product-price">
+                  <p class="shoppe-product-description">
 
-                RM 29.00
+                    A versatile vanilla flavouring ideal for
+                    cakes, cookies, desserts, drinks and
+                    everyday baking.
 
-              </p>
+                  </p>
 
 
-              <a
-                href="https://shopee.com.my/RB-Vanilla-240ml-by-Chef-Kecik-i.274865948.9809407828?extraParams=%7B%22display_model_id%22%3A73296271158%2C%22model_selection_logic%22%3A3%7D"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="shoppe-add-cart"
-              >
+                  <p class="shoppe-product-price">
 
-                <span>
-                  🛒
-                </span>
+                    RM 29.00
 
-                Add to Cart
+                  </p>
 
-              </a>
+
+                  <a href="https://shopee.com.my/RB-Vanilla-240ml-by-Chef-Kecik-i.274865948.9809407828?extraParams=%7B%22display_model_id%22%3A73296271158%2C%22model_selection_logic%22%3A3%7D"
+                    target="_blank" rel="noopener noreferrer" class="shoppe-add-cart">
+
+                    <span>
+                      🛒
+                    </span>
+
+                    Shoppe
+
+                  </a>
+
+
+                </div>
+
+
+              </article>
 
 
             </div>
 
 
-          </article>
+          </section>
 
 
-        </div>
+        </section>
+      </div>
+    </div>
 
-
-      </section>
-
-
-    </section>
 
 
   </main>
