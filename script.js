@@ -622,3 +622,239 @@ document.addEventListener(
   }
 );
 
+/* ============================================================
+   RECIPE CATEGORY FILTER
+============================================================ */
+
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+
+
+    const recipeGrid =
+      document.getElementById(
+        "recipeGrid"
+      );
+
+
+    /*
+      Stop if this is not
+      recipe.html
+    */
+
+    if (!recipeGrid) {
+      return;
+    }
+
+
+
+    const recipeCards =
+      document.querySelectorAll(
+        ".recipe-card"
+      );
+
+
+    const recipeCategoryButtons =
+      document.querySelectorAll(
+        ".recipe-category"
+      );
+
+
+    const recipeEmpty =
+      document.getElementById(
+        "recipeEmpty"
+      );
+
+
+
+    /* ========================================================
+       CATEGORY CLICK
+    ======================================================== */
+
+    recipeCategoryButtons.forEach(
+      button => {
+
+
+        button.addEventListener(
+          "click",
+          function () {
+
+
+            const selectedCategory =
+              this.dataset.recipeFilter;
+
+
+
+            /* REMOVE ACTIVE */
+
+            recipeCategoryButtons
+              .forEach(btn => {
+
+                btn.classList.remove(
+                  "active"
+                );
+
+              });
+
+
+
+            /* ADD ACTIVE */
+
+            this.classList.add(
+              "active"
+            );
+
+
+
+            let visibleRecipes =
+              0;
+
+
+
+            /* FILTER CARDS */
+
+            recipeCards.forEach(
+              card => {
+
+
+                const recipeCategory =
+                  card.dataset
+                    .recipeCategory;
+
+
+
+                if (
+                  selectedCategory ===
+                  "all"
+                ) {
+
+
+                  card.style.display =
+                    "";
+
+
+                  visibleRecipes++;
+
+
+                }
+
+
+                else if (
+                  recipeCategory ===
+                  selectedCategory
+                ) {
+
+
+                  card.style.display =
+                    "";
+
+
+                  visibleRecipes++;
+
+
+                }
+
+
+                else {
+
+
+                  card.style.display =
+                    "none";
+
+
+                }
+
+
+              }
+            );
+
+
+
+            /* EMPTY MESSAGE */
+
+            if (
+              visibleRecipes === 0
+            ) {
+
+
+              recipeEmpty.style.display =
+                "block";
+
+
+            }
+
+
+            else {
+
+
+              recipeEmpty.style.display =
+                "none";
+
+
+            }
+
+
+          }
+        );
+
+
+      }
+    );
+
+
+
+    /* ========================================================
+       RECIPE NEWSLETTER
+    ======================================================== */
+
+    const recipeNewsletter =
+      document.getElementById(
+        "recipeNewsletterForm"
+      );
+
+
+    const recipeMessage =
+      document.getElementById(
+        "recipeNewsletterMessage"
+      );
+
+
+    if (recipeNewsletter) {
+
+
+      recipeNewsletter.addEventListener(
+        "submit",
+        function (event) {
+
+
+          event.preventDefault();
+
+
+          recipeMessage.textContent =
+            "Thank you! You're subscribed.";
+
+
+          recipeNewsletter.reset();
+
+
+          setTimeout(
+            function () {
+
+              recipeMessage.textContent =
+                "";
+
+            },
+            4000
+          );
+
+
+        }
+      );
+
+
+    }
+
+
+  }
+);
+
