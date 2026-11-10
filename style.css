@@ -1712,17 +1712,14 @@ h2 em {
   min-height: 720px;
 
   padding:
-    55px 0
-    95px;
+    55px 0 95px;
 
   color: var(--brown);
 
   background:
-    radial-gradient(
-      circle at 8% 10%,
+    radial-gradient(circle at 8% 10%,
       rgba(234, 220, 205, 0.40),
-      transparent 27%
-    ),
+      transparent 27%),
     #fffdfb;
 }
 
@@ -1734,10 +1731,8 @@ h2 em {
 .shoppe-page .shoppe-container {
 
   width:
-    min(
-      1380px,
-      calc(100% - 70px)
-    );
+    min(1380px,
+      calc(100% - 70px));
 
   margin:
     0 auto;
@@ -1783,11 +1778,9 @@ h2 em {
     serif;
 
   font-size:
-    clamp(
-      50px,
+    clamp(50px,
       5vw,
-      70px
-    );
+      70px);
 
   font-weight:
     500;
@@ -1820,8 +1813,7 @@ h2 em {
     9px;
 
   margin:
-    15px 0
-    20px;
+    15px 0 20px;
 
 }
 
@@ -1861,14 +1853,13 @@ h2 em {
    INTRO DESCRIPTION
 ============================================================ */
 
-.shoppe-page .shop-intro > p {
+.shoppe-page .shop-intro>p {
 
   max-width:
     225px;
 
   margin:
-    0 0
-    22px;
+    0 0 22px;
 
   color:
     var(--muted);
@@ -1944,8 +1935,7 @@ h2 em {
     #a3673e;
 
   box-shadow:
-    0 8px 20px
-    rgba(53, 40, 31, 0.15);
+    0 8px 20px rgba(53, 40, 31, 0.15);
 
 }
 
@@ -1963,18 +1953,15 @@ h2 em {
     18px 12px;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.07);
+    1px solid rgba(53, 40, 31, 0.07);
 
   border-radius:
     14px;
 
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       #faf3eb,
-      #f7ede2
-    );
+      #f7ede2);
 
 }
 
@@ -1982,8 +1969,7 @@ h2 em {
 .shoppe-page .category-box h3 {
 
   margin:
-    0 10px
-    12px;
+    0 10px 12px;
 
   font-family:
     "DM Sans",
@@ -2148,12 +2134,10 @@ h2 em {
     36px;
 
   padding:
-    0 35px
-    0 13px;
+    0 35px 0 13px;
 
   border:
-    1px solid
-    var(--line);
+    1px solid var(--line);
 
   border-radius:
     8px;
@@ -2211,10 +2195,8 @@ h2 em {
     grid;
 
   grid-template-columns:
-    repeat(
-      3,
-      minmax(0, 1fr)
-    );
+    repeat(3,
+      minmax(0, 1fr));
 
   gap:
     22px;
@@ -2241,8 +2223,7 @@ h2 em {
     hidden;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.09);
+    1px solid rgba(53, 40, 31, 0.09);
 
   border-radius:
     16px;
@@ -2251,8 +2232,7 @@ h2 em {
     #ffffff;
 
   box-shadow:
-    0 8px 24px
-    rgba(53, 40, 31, 0.06);
+    0 8px 24px rgba(53, 40, 31, 0.06);
 
   transition:
     transform 0.3s ease,
@@ -2268,16 +2248,13 @@ h2 em {
     translateY(-6px);
 
   border-color:
-    rgba(
-      198,
+    rgba(198,
       168,
       140,
-      0.75
-    );
+      0.75);
 
   box-shadow:
-    0 20px 42px
-    rgba(53, 40, 31, 0.12);
+    0 20px 42px rgba(53, 40, 31, 0.12);
 
 }
 
@@ -2329,9 +2306,7 @@ h2 em {
 }
 
 
-.shoppe-page
-.shoppe-product-card:hover
-.shoppe-product-image img {
+.shoppe-page .shoppe-product-card:hover .shoppe-product-image img {
 
   transform:
     scale(1.055);
@@ -2367,19 +2342,16 @@ h2 em {
     center;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.06);
+    1px solid rgba(53, 40, 31, 0.06);
 
   border-radius:
     50%;
 
   background:
-    rgba(
+    rgba(255,
       255,
       255,
-      255,
-      0.95
-    );
+      0.95);
 
   color:
     #b97850;
@@ -2388,8 +2360,7 @@ h2 em {
     15px;
 
   box-shadow:
-    0 4px 12px
-    rgba(53, 40, 31, 0.10);
+    0 4px 12px rgba(53, 40, 31, 0.10);
 
   transition:
     transform 0.2s ease,
@@ -2398,8 +2369,7 @@ h2 em {
 }
 
 
-.shoppe-page .shoppe-product-image:hover
-.product-heart {
+.shoppe-page .shoppe-product-image:hover .product-heart {
 
   transform:
     scale(1.08);
@@ -2436,8 +2406,7 @@ h2 em {
 .shoppe-page .shoppe-product-info h3 {
 
   margin:
-    0 0
-    7px;
+    0 0 7px;
 
   font-family:
     "DM Sans",
@@ -2468,8 +2437,7 @@ h2 em {
     50px;
 
   margin:
-    0 0
-    10px;
+    0 0 10px;
 
   color:
     var(--muted);
@@ -2490,8 +2458,7 @@ h2 em {
 .shoppe-page .shoppe-product-price {
 
   margin:
-    0 0
-    13px;
+    0 0 13px;
 
   color:
     #ae5e34;
@@ -2533,8 +2500,7 @@ h2 em {
     8px;
 
   border:
-    1px solid
-    transparent;
+    1px solid transparent;
 
   border-radius:
     9px;
@@ -2575,8 +2541,7 @@ h2 em {
     #ffffff;
 
   box-shadow:
-    0 8px 18px
-    rgba(53, 40, 31, 0.15);
+    0 8px 18px rgba(53, 40, 31, 0.15);
 
 }
 
@@ -2601,10 +2566,8 @@ h2 em {
   .shoppe-page .shoppe-product-grid {
 
     grid-template-columns:
-      repeat(
-        2,
-        minmax(0, 1fr)
-      );
+      repeat(2,
+        minmax(0, 1fr));
 
   }
 
@@ -2666,7 +2629,7 @@ h2 em {
   }
 
 
-  .shoppe-page .shop-intro > p {
+  .shoppe-page .shop-intro>p {
 
     max-width:
       420px;
@@ -2685,8 +2648,7 @@ h2 em {
   .shoppe-page {
 
     padding:
-      40px 0
-      65px;
+      40px 0 65px;
 
   }
 
@@ -2694,10 +2656,8 @@ h2 em {
   .shoppe-page .shoppe-container {
 
     width:
-      min(
-        100% - 28px,
-        1380px
-      );
+      min(100% - 28px,
+        1380px);
 
     display:
       block;
@@ -2721,7 +2681,7 @@ h2 em {
   }
 
 
-  .shoppe-page .shop-intro > p {
+  .shoppe-page .shop-intro>p {
 
     max-width:
       100%;
@@ -2855,15 +2815,12 @@ h2 em {
     750px;
 
   padding:
-    35px 0
-    80px;
+    35px 0 80px;
 
   background:
-    radial-gradient(
-      circle at 50% 0%,
+    radial-gradient(circle at 50% 0%,
       rgba(234, 220, 205, 0.35),
-      transparent 32%
-    ),
+      transparent 32%),
     #fffdfb;
 
   color:
@@ -2879,10 +2836,8 @@ h2 em {
 .baking-page .baking-container {
 
   width:
-    min(
-      1380px,
-      calc(100% - 70px)
-    );
+    min(1380px,
+      calc(100% - 70px));
 
   margin:
     0 auto;
@@ -2900,8 +2855,7 @@ h2 em {
     700px;
 
   margin:
-    0 auto
-    32px;
+    0 auto 32px;
 
   text-align:
     center;
@@ -2919,11 +2873,9 @@ h2 em {
     serif;
 
   font-size:
-    clamp(
-      46px,
+    clamp(46px,
       5vw,
-      66px
-    );
+      66px);
 
   font-weight:
     500;
@@ -2947,8 +2899,7 @@ h2 em {
 .baking-page .baking-decoration {
 
   margin:
-    14px auto
-    13px;
+    14px auto 13px;
 
   display:
     flex;
@@ -3021,10 +2972,8 @@ h2 em {
     grid;
 
   grid-template-columns:
-    repeat(
-      4,
-      minmax(0, 1fr)
-    );
+    repeat(4,
+      minmax(0, 1fr));
 
   gap:
     20px;
@@ -3051,8 +3000,7 @@ h2 em {
     column;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.08);
+    1px solid rgba(53, 40, 31, 0.08);
 
   border-radius:
     16px;
@@ -3061,8 +3009,7 @@ h2 em {
     #ffffff;
 
   box-shadow:
-    0 10px 26px
-    rgba(53, 40, 31, 0.07);
+    0 10px 26px rgba(53, 40, 31, 0.07);
 
   transition:
     transform 0.3s ease,
@@ -3078,16 +3025,13 @@ h2 em {
     translateY(-7px);
 
   border-color:
-    rgba(
-      198,
+    rgba(198,
       168,
       140,
-      0.75
-    );
+      0.75);
 
   box-shadow:
-    0 20px 42px
-    rgba(53, 40, 31, 0.12);
+    0 20px 42px rgba(53, 40, 31, 0.12);
 
 }
 
@@ -3130,9 +3074,7 @@ h2 em {
 }
 
 
-.baking-page
-.baking-card:hover
-.baking-card-image img {
+.baking-page .baking-card:hover .baking-card-image img {
 
   transform:
     scale(1.06);
@@ -3153,8 +3095,7 @@ h2 em {
     1;
 
   padding:
-    34px 22px
-    20px;
+    34px 22px 20px;
 
   display:
     flex;
@@ -3202,8 +3143,7 @@ h2 em {
     translateX(-50%);
 
   border:
-    2px solid
-    #ffffff;
+    2px solid #ffffff;
 
   border-radius:
     50%;
@@ -3222,8 +3162,7 @@ h2 em {
     13px;
 
   box-shadow:
-    0 3px 12px
-    rgba(53, 40, 31, 0.10);
+    0 3px 12px rgba(53, 40, 31, 0.10);
 
 }
 
@@ -3235,8 +3174,7 @@ h2 em {
 .baking-page .baking-card h2 {
 
   margin:
-    0 0
-    9px;
+    0 0 9px;
 
   font-family:
     "Playfair Display",
@@ -3285,8 +3223,7 @@ h2 em {
     43px;
 
   margin:
-    0 0
-    15px;
+    0 0 15px;
 
   color:
     var(--muted);
@@ -3310,8 +3247,7 @@ h2 em {
     100%;
 
   margin:
-    0 0
-    17px;
+    0 0 17px;
 
   padding:
     0;
@@ -3438,15 +3374,12 @@ h2 em {
     var(--brown);
 
   box-shadow:
-    0 8px 18px
-    rgba(53, 40, 31, 0.15);
+    0 8px 18px rgba(53, 40, 31, 0.15);
 
 }
 
 
-.baking-page
-.baking-view-button:hover
-span {
+.baking-page .baking-view-button:hover span {
 
   transform:
     translateX(4px);
@@ -3479,18 +3412,15 @@ span {
     30px;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.08);
+    1px solid rgba(53, 40, 31, 0.08);
 
   border-radius:
     14px;
 
   background:
-    linear-gradient(
-      100deg,
+    linear-gradient(100deg,
       #faf2e8,
-      #fffaf5
-    );
+      #fffaf5);
 
 }
 
@@ -3531,8 +3461,7 @@ span {
     0;
 
   border:
-    1px solid
-    var(--sand);
+    1px solid var(--sand);
 
   border-radius:
     50%;
@@ -3549,8 +3478,7 @@ span {
 .baking-page .private-class-left h3 {
 
   margin:
-    0 0
-    5px;
+    0 0 5px;
 
   font-family:
     "Playfair Display",
@@ -3610,8 +3538,7 @@ span {
     0;
 
   border:
-    1px solid
-    #b9784d;
+    1px solid #b9784d;
 
   border-radius:
     999px;
@@ -3659,10 +3586,8 @@ span {
   .baking-page .baking-class-grid {
 
     grid-template-columns:
-      repeat(
-        2,
-        minmax(0, 1fr)
-      );
+      repeat(2,
+        minmax(0, 1fr));
 
   }
 
@@ -3713,8 +3638,7 @@ span {
   .baking-page {
 
     padding:
-      40px 0
-      65px;
+      40px 0 65px;
 
   }
 
@@ -3722,10 +3646,8 @@ span {
   .baking-page .baking-container {
 
     width:
-      min(
-        100% - 28px,
-        1380px
-      );
+      min(100% - 28px,
+        1380px);
 
   }
 
@@ -3813,11 +3735,9 @@ span {
     30px 0 75px;
 
   background:
-    radial-gradient(
-      circle at 50% 0%,
+    radial-gradient(circle at 50% 0%,
       rgba(234, 220, 205, 0.32),
-      transparent 31%
-    ),
+      transparent 31%),
     #fffdfb;
 
   color:
@@ -3833,10 +3753,8 @@ span {
 .recipe-page .recipe-container {
 
   width:
-    min(
-      1380px,
-      calc(100% - 70px)
-    );
+    min(1380px,
+      calc(100% - 70px));
 
   margin:
     0 auto;
@@ -3857,8 +3775,7 @@ span {
     720px;
 
   margin:
-    0 auto
-    22px;
+    0 auto 22px;
 
   text-align:
     center;
@@ -3876,11 +3793,9 @@ span {
     serif;
 
   font-size:
-    clamp(
-      48px,
+    clamp(48px,
       5vw,
-      68px
-    );
+      68px);
 
   font-weight:
     500;
@@ -3977,8 +3892,7 @@ span {
 .recipe-page .recipe-categories {
 
   margin:
-    0 auto
-    24px;
+    0 auto 24px;
 
   display:
     flex;
@@ -4010,8 +3924,7 @@ span {
     0 18px;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.15);
+    1px solid rgba(53, 40, 31, 0.15);
 
   border-radius:
     999px;
@@ -4072,8 +3985,7 @@ span {
     grid;
 
   grid-template-columns:
-    minmax(0, 1fr)
-    280px;
+    minmax(0, 1fr) 280px;
 
   gap:
     20px;
@@ -4094,10 +4006,8 @@ span {
     grid;
 
   grid-template-columns:
-    repeat(
-      4,
-      minmax(0, 1fr)
-    );
+    repeat(4,
+      minmax(0, 1fr));
 
   gap:
     15px;
@@ -4115,8 +4025,7 @@ span {
     hidden;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.08);
+    1px solid rgba(53, 40, 31, 0.08);
 
   border-radius:
     14px;
@@ -4125,8 +4034,7 @@ span {
     #ffffff;
 
   box-shadow:
-    0 8px 20px
-    rgba(53, 40, 31, 0.06);
+    0 8px 20px rgba(53, 40, 31, 0.06);
 
   transition:
     transform 0.25s ease,
@@ -4142,16 +4050,13 @@ span {
     translateY(-5px);
 
   border-color:
-    rgba(
-      198,
+    rgba(198,
       168,
       140,
-      0.8
-    );
+      0.8);
 
   box-shadow:
-    0 16px 32px
-    rgba(53, 40, 31, 0.11);
+    0 16px 32px rgba(53, 40, 31, 0.11);
 
 }
 
@@ -4200,9 +4105,7 @@ span {
 }
 
 
-.recipe-page
-.recipe-card:hover
-.recipe-card-image img {
+.recipe-page .recipe-card:hover .recipe-card-image img {
 
   transform:
     scale(1.05);
@@ -4241,12 +4144,10 @@ span {
     999px;
 
   background:
-    rgba(
-      185,
+    rgba(185,
       120,
       75,
-      0.94
-    );
+      0.94);
 
   color:
     #ffffff;
@@ -4255,8 +4156,7 @@ span {
     9px;
 
   box-shadow:
-    0 3px 9px
-    rgba(53, 40, 31, 0.14);
+    0 3px 9px rgba(53, 40, 31, 0.14);
 
 }
 
@@ -4296,7 +4196,7 @@ span {
 
 /* DESCRIPTION */
 
-.recipe-page .recipe-card-content > p {
+.recipe-page .recipe-card-content>p {
 
   min-height:
     45px;
@@ -4338,8 +4238,7 @@ span {
     8px;
 
   border-top:
-    1px solid
-    rgba(53, 40, 31, 0.08);
+    1px solid rgba(53, 40, 31, 0.08);
 
   color:
     var(--muted);
@@ -4456,9 +4355,7 @@ span {
 }
 
 
-.recipe-page
-.recipe-view-all a:hover
-span {
+.recipe-page .recipe-view-all a:hover span {
 
   transform:
     translateX(4px);
@@ -4494,18 +4391,15 @@ span {
     22px;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.08);
+    1px solid rgba(53, 40, 31, 0.08);
 
   border-radius:
     14px;
 
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       #fffaf5,
-      #f8eee3
-    );
+      #f8eee3);
 
 }
 
@@ -4560,7 +4454,7 @@ span {
    BAKING TIPS BUTTON
 ============================================================ */
 
-.recipe-page .baking-made-easy > a {
+.recipe-page .baking-made-easy>a {
 
   min-height:
     35px;
@@ -4596,8 +4490,7 @@ span {
 }
 
 
-.recipe-page
-.baking-made-easy > a:hover {
+.recipe-page .baking-made-easy>a:hover {
 
   transform:
     translateY(-2px);
@@ -4687,9 +4580,7 @@ span {
     grid;
 
   grid-template-columns:
-    auto
-    minmax(200px, 1fr)
-    minmax(300px, 430px);
+    auto minmax(200px, 1fr) minmax(300px, 430px);
 
   align-items:
     center;
@@ -4698,18 +4589,15 @@ span {
     20px;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.07);
+    1px solid rgba(53, 40, 31, 0.07);
 
   border-radius:
     14px;
 
   background:
-    linear-gradient(
-      100deg,
+    linear-gradient(100deg,
       #f8eee4,
-      #fffaf6
-    );
+      #fffaf6);
 
 }
 
@@ -4731,8 +4619,7 @@ span {
     center;
 
   border:
-    1px solid
-    #d8b795;
+    1px solid #d8b795;
 
   border-radius:
     50%;
@@ -4805,8 +4692,7 @@ span {
     0 15px;
 
   border:
-    1px solid
-    rgba(53, 40, 31, 0.12);
+    1px solid rgba(53, 40, 31, 0.12);
 
   border-right:
     0;
@@ -4861,8 +4747,7 @@ span {
 }
 
 
-.recipe-page
-.recipe-newsletter-form button:hover {
+.recipe-page .recipe-newsletter-form button:hover {
 
   background:
     var(--brown);
@@ -4946,8 +4831,7 @@ span {
   }
 
 
-  .recipe-page
-  .recipe-newsletter-form {
+  .recipe-page .recipe-newsletter-form {
 
     grid-column:
       1 / -1;
@@ -4971,8 +4855,7 @@ span {
   .recipe-page {
 
     padding:
-      40px 0
-      65px;
+      40px 0 65px;
 
   }
 
@@ -4980,10 +4863,8 @@ span {
   .recipe-page .recipe-container {
 
     width:
-      min(
-        100% - 28px,
-        1380px
-      );
+      min(100% - 28px,
+        1380px);
 
   }
 
@@ -5067,8 +4948,7 @@ span {
   }
 
 
-  .recipe-page
-  .recipe-newsletter-form {
+  .recipe-page .recipe-newsletter-form {
 
     width:
       100%;
@@ -5076,8 +4956,7 @@ span {
   }
 
 
-  .recipe-page
-  .recipe-newsletter-form button {
+  .recipe-page .recipe-newsletter-form button {
 
     min-width:
       100px;
@@ -5085,6 +4964,7 @@ span {
   }
 
 }
+
 /* ============================================================
    BAKING CLASS DETAIL VIEW
    Added for View Details inside academy.html
@@ -5220,7 +5100,7 @@ span {
   gap: 12px;
 }
 
-.class-detail-info > div {
+.class-detail-info>div {
   padding: 15px;
   display: flex;
   align-items: center;
@@ -5292,7 +5172,7 @@ span {
   text-align: center;
 }
 
-.class-section-heading > p {
+.class-section-heading>p {
   margin: 0 0 10px;
   color: #a46c48;
   font-size: 9px;
@@ -5307,7 +5187,7 @@ span {
   font-weight: 500;
 }
 
-.class-section-heading > span {
+.class-section-heading>span {
   color: var(--muted);
   font-size: 12px;
 }
@@ -5409,7 +5289,7 @@ span {
   background: #ffffff;
 }
 
-.included-card > span {
+.included-card>span {
   width: 50px;
   height: 50px;
   margin: 0 auto 17px;
@@ -5458,12 +5338,12 @@ span {
   font-size: clamp(28px, 3vw, 40px);
 }
 
-.class-final-cta > div > span {
+.class-final-cta>div>span {
   color: var(--muted);
   font-size: 11px;
 }
 
-.class-final-cta > a {
+.class-final-cta>a {
   min-width: 150px;
   height: 43px;
   padding: 0 20px;
@@ -5480,7 +5360,7 @@ span {
   transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.class-final-cta > a:hover {
+.class-final-cta>a:hover {
   transform: translateY(-2px);
   background: #b9784d;
 }
@@ -5543,7 +5423,7 @@ span {
     flex-direction: column;
   }
 
-  .class-final-cta > a {
+  .class-final-cta>a {
     width: 100%;
   }
 }
@@ -5676,7 +5556,7 @@ span {
   margin-bottom: 28px;
 }
 
-.recipe-detail-meta > div {
+.recipe-detail-meta>div {
   padding: 15px;
   display: flex;
   align-items: center;
@@ -5686,7 +5566,7 @@ span {
   background: #fffaf5;
 }
 
-.recipe-detail-meta > div > span {
+.recipe-detail-meta>div>span {
   color: #b9784d;
   font-size: 17px;
 }
@@ -5725,7 +5605,7 @@ span {
   margin-bottom: 30px;
 }
 
-.recipe-section-title > p {
+.recipe-section-title>p {
   margin: 0 0 8px;
   color: #a46c48;
   font-size: 9px;
@@ -5885,12 +5765,12 @@ span {
   font-size: clamp(28px, 3vw, 40px);
 }
 
-.recipe-detail-bottom > div > span {
+.recipe-detail-bottom>div>span {
   color: var(--muted);
   font-size: 11px;
 }
 
-.recipe-detail-bottom > a {
+.recipe-detail-bottom>a {
   min-width: 175px;
   min-height: 43px;
   padding: 0 20px;
@@ -5907,7 +5787,7 @@ span {
   transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.recipe-detail-bottom > a:hover {
+.recipe-detail-bottom>a:hover {
   transform: translateY(-2px);
   background: #b9784d;
 }
@@ -5966,7 +5846,448 @@ span {
     flex-direction: column;
   }
 
-  .recipe-detail-bottom > a {
+  .recipe-detail-bottom>a {
     width: 100%;
+  }
+
+  /* ============================================================
+   CONTACT PAGE
+   Paste at the bottom of style.css
+============================================================ */
+
+
+  .contact-page {
+    min-height: 750px;
+    padding: 55px 0 90px;
+    color: var(--brown);
+    background:
+      radial-gradient(circle at 50% 0%,
+        rgba(234, 220, 205, 0.35),
+        transparent 32%),
+      #fffdfb;
+  }
+
+  .contact-page .contact-container {
+    width: min(1250px, calc(100% - 70px));
+    margin: 0 auto;
+  }
+
+
+  /* ============================================================
+   HEADING
+============================================================ */
+
+  .contact-page .contact-heading {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    text-align: center;
+  }
+
+  .contact-page .contact-heading .eyebrow {
+    margin-bottom: 14px;
+  }
+
+  .contact-page .contact-heading h1 {
+    margin: 0;
+    font-size: clamp(46px, 5vw, 68px);
+    line-height: 1;
+    color: var(--brown);
+  }
+
+  .contact-page .contact-decoration {
+    margin: 16px auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+  }
+
+  .contact-page .contact-decoration span {
+    width: 75px;
+    height: 1px;
+    background: var(--sand);
+  }
+
+  .contact-page .contact-decoration div {
+    color: #b9784d;
+    font-size: 12px;
+  }
+
+  .contact-page .contact-heading>p:last-child {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+
+  /* ============================================================
+   MAIN LAYOUT
+============================================================ */
+
+  .contact-page .contact-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+    gap: 24px;
+    align-items: start;
+  }
+
+
+  /* ============================================================
+   FORM CARD
+============================================================ */
+
+  .contact-page .contact-form-card {
+    padding: 44px;
+    border: 1px solid rgba(53, 40, 31, 0.08);
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: var(--shadow);
+  }
+
+  .contact-page .contact-form-card h2 {
+    margin: 0 0 8px;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .contact-page .contact-form-intro {
+    margin: 0 0 30px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .contact-page .contact-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+  .contact-page .contact-field {
+    margin-bottom: 20px;
+  }
+
+  .contact-page .contact-field label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--brown);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+
+  .contact-page .contact-field input,
+  .contact-page .contact-field textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid rgba(53, 40, 31, 0.14);
+    border-radius: 10px;
+    outline: none;
+    background: var(--warm-white);
+    color: var(--brown);
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease,
+      background 0.2s ease;
+  }
+
+  .contact-page .contact-field textarea {
+    resize: vertical;
+    min-height: 130px;
+    line-height: 1.6;
+  }
+
+  .contact-page .contact-field input::placeholder,
+  .contact-page .contact-field textarea::placeholder {
+    color: #a39a93;
+  }
+
+  .contact-page .contact-field input:focus,
+  .contact-page .contact-field textarea:focus {
+    border-color: #b9784d;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(185, 120, 77, 0.14);
+  }
+
+
+  /* ============================================================
+   TOPIC PILLS
+============================================================ */
+
+  .contact-page .contact-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .contact-page .contact-topic {
+    height: 36px;
+    padding: 0 18px;
+    border: 1px solid rgba(53, 40, 31, 0.15);
+    border-radius: 999px;
+    background: #ffffff;
+    color: var(--brown);
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    transition:
+      background 0.2s ease,
+      color 0.2s ease,
+      transform 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .contact-page .contact-topic:hover {
+    transform: translateY(-2px);
+    border-color: #b9784b;
+  }
+
+  .contact-page .contact-topic.active {
+    border-color: #b9784b;
+    background: #b9784b;
+    color: #ffffff;
+  }
+
+
+  /* ============================================================
+   SUBMIT BUTTON
+============================================================ */
+
+  .contact-page .contact-submit {
+    min-height: 46px;
+    padding: 0 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 0;
+    border-radius: 999px;
+    background: #b9784d;
+    color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition:
+      transform 0.2s ease,
+      background 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .contact-page .contact-submit span {
+    font-size: 13px;
+    transition: transform 0.2s ease;
+  }
+
+  .contact-page .contact-submit:hover {
+    transform: translateY(-2px);
+    background: var(--brown);
+    box-shadow: 0 8px 18px rgba(53, 40, 31, 0.15);
+  }
+
+  .contact-page .contact-submit:hover span {
+    transform: translateX(4px);
+  }
+
+  .contact-page .contact-form-message {
+    min-height: 18px;
+    margin: 14px 0 0;
+    font-size: 11px;
+  }
+
+  .contact-page .contact-form-message.success {
+    color: #7d674f;
+  }
+
+  .contact-page .contact-form-message.error {
+    color: #b2452f;
+  }
+
+
+  /* ============================================================
+   INFO COLUMN
+============================================================ */
+
+  .contact-page .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contact-page .contact-info-card {
+    padding: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    border: 1px solid rgba(53, 40, 31, 0.08);
+    border-radius: 16px;
+    background: linear-gradient(145deg, #fffaf5, #f8eee3);
+    transition:
+      transform 0.25s ease,
+      box-shadow 0.25s ease,
+      border-color 0.25s ease;
+  }
+
+  .contact-page .contact-info-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(198, 168, 140, 0.8);
+    box-shadow: 0 12px 28px rgba(53, 40, 31, 0.09);
+  }
+
+  .contact-page .contact-info-icon {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border: 1px solid var(--sand);
+    border-radius: 50%;
+    background: #ffffff;
+    color: #b9784d;
+    font-size: 19px;
+  }
+
+  .contact-page .contact-info-card h3 {
+    margin: 0 0 5px;
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .contact-page .contact-info-card p {
+    margin: 0 0 9px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  .contact-page .contact-info-card a {
+    display: inline-block;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #b9784d;
+    color: #a4653e;
+    font-size: 11px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+
+  .contact-page .contact-info-card a:hover {
+    color: var(--brown);
+    border-color: var(--brown);
+  }
+
+
+  /* OPENING HOURS */
+
+  .contact-page .contact-hours>div:last-child {
+    flex: 1;
+  }
+
+  .contact-page .contact-hours ul {
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .contact-page .contact-hours li {
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    border-bottom: 1px solid rgba(53, 40, 31, 0.08);
+    color: var(--muted);
+    font-size: 11px;
+  }
+
+  .contact-page .contact-hours li:last-child {
+    border-bottom: 0;
+  }
+
+  .contact-page .contact-hours li span:first-child {
+    color: var(--brown);
+    font-weight: 500;
+  }
+
+
+  /* ============================================================
+   BOTTOM CTA
+============================================================ */
+
+  .contact-page .contact-cta {
+    margin-top: 40px;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border: 1px solid rgba(53, 40, 31, 0.08);
+    border-radius: 16px;
+    background: linear-gradient(120deg, #efe0d1, #faf3ec);
+  }
+
+  .contact-page .contact-cta-left {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .contact-page .contact-cta-icon {
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border: 1px solid var(--sand);
+    border-radius: 50%;
+    background: #ffffff;
+    color: #b9784d;
+    font-size: 24px;
+  }
+
+  .contact-page .contact-cta-left h3 {
+    margin: 0 0 5px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .contact-page .contact-cta-left p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 11px;
+  }
+
+  .contact-page .contact-cta-button {
+    min-width: 170px;
+    min-height: 43px;
+    padding: 0 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    flex-shrink: 0;
+    border-radius: 999px;
+    background: var(--brown);
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    transition:
+      transform 0.2s ease,
+      background 0.2s ease;
+  }
+
+  .contact-page .contact-cta-button:hover {
+    transform: translateY(-2px);
+    background: #b9784d;
+  }
+
+  .contact-page .contact-cta-button span {
+    transition: transform 0.2s ease;
+  }
+
+  .contact-page .contact-cta-button:hover span {
+    transform: translateX(4px);
   }
 }
