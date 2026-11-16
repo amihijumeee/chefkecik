@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Chef Kecik Baking Classes">
+
+  <title>
+    Chef Kecik
+  </title>
+
+
+  <!-- GOOGLE FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet">
+
+
+  <!-- SHARED CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+  <!-- ==================================================
+       NAVBAR
+  =================================================== -->
+
+  <?php include __DIR__ . '/components/navbar.php'; ?>
+
+
+
+  <!-- ==================================================
+       MAIN
+  =================================================== -->
+
+  <main id="top">
+
+
+
+    <!-- ==================================================
+         BAKING CLASS OVERVIEW
+    =================================================== -->
+
+    <div class="hero" id="bakingOverview">
+
+
+      <div class="baking-page">
+
+
+        <section class="baking-container">
+
+
+
+          <!-- ==================================================
+               PAGE HEADING
+          =================================================== -->
+
+          <div class="baking-heading">
+
+
+            <h1>
+              BAKING CLASS
+            </h1>
+
+
+            <!--
+
+            <div class="baking-decoration">
+
+              <span></span>
+
+              <div>
+                ♥
+              </div>
+
+              <span></span>
+
+            </div>
+
+            -->
+
+
+            <br>
+
+
+            <p>
+
+              Learn, bake and create wonderful memories with us.
+
+              <br>
+
+              Our classes are perfect for beginners and baking lovers!
+
+            </p>
+
+
+          </div>
+
+
+
+          <!-- ==================================================
+               CLASS CARDS
+          =================================================== -->
+
+          <div class="baking-class-grid">
+
+
+
+            <!-- ==================================================
+                 CLASS 1
+            =================================================== -->
+
+            <article class="baking-card">
+
+
+              <div class="baking-card-image">
+
+
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+                  alt="Basic Cake Baking Class">
+
+
+              </div>
+
+
+
+              <div class="baking-card-content">
+
+
+                <span class="baking-number">
+                  01
+                </span>
+
+
+                <h2>
+                  CLASS 1
+                </h2>
+
+
+                <div class="baking-card-line"></div>
+
+
+                <p class="baking-description">
+
+                  Basic baking techniques
+                  and fundamentals.
+
+                </p>
+
+
+                <ul class="baking-info">
+
+
+                  <li>
+
+                    <span>
+                      ◷
+                    </span>
+
+                    3 Hours
+
+                  </li>
+
+
+                  <li>
+
+                    <span>
+                      ♙
+                    </span>
+
+                    Beginner
+
+                  </li>
+
+
+                  <li>
+
+                    <span>
+                      ▣
+                    </span>
+
+                    Every Sat &amp; Sun
+
+                  </li>
+
+
+                </ul>
+
+
+                <a href="#" class="baking-view-button" data-class="1">
+
+                  View Details
+
+                  <span>
+                    →
+                  </span>
+
+                </a>
+
+
+              </div>
+
+
+            </article>
+
+
+
+            <!-- ==================================================
+                 CLASS 2
+            =================================================== -->
+
+            <article class="baking-card">
+
+
+              <div class="baking-card-image">
+
+
+                <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=900&q=85"
+                  alt="Cake Decorating Class">
+
+
+              </div>
+
+
+
+              <div class="baking-card-content">
+
+
+                <span class="baking-number">
+                  02
+                </span>
+
+
+                <h2>
+                  CLASS 2
+                </h2>
+
+
+                <div class="baking-card-line"></div>
+
+
+                <p class="baking-description">
+
+                  Master the art of
+                  cake decorating like a pro.
+
+                </p>
+
+
+                <ul class="baking-info">
+
+
+                  <li>
+
+                    <span>
+                      ◷
+                    </span>
+
+                    3 Hours
+
+                  </li>
+
+
+                  <li>
+
+                    <span>
+                      ♙
+                    </span>
+
+                    All Levels
+
+                  </li>
+
+
+                  <li>
+
+                    <span>
+                      ▣
+                    </span>
+
+                    Every Sat &amp; Sun
+
+                  </li>
+
+
+                </ul>
+
+
+                <a href="#" class="baking-view-button" data-class="2">
+
+                  View Details
+
+                  <span>
+                    →
+                  </span>
+
+                </a>
+
+
+              </div>
+
+
+            </article>
+
+
+
+            <!-- ==================================================
+                 CLASS 3
+            =================================================== -->
+
+            <article class="baking-card">
+
+
+              <div class="baking-card-image">
+
+
+                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=85"
+                  alt="Cookies and Brownies Baking Class">
+
+
+              </div>
+
+
+
+              <div class="baking-card-content">
+
+
+                <span class="baking-number">
+                  03
+                </span>
+
+
+                <h2>
+                  CLASS 3
+                </h2>
+
+
+                <div class="baking-card-line"></div>
+
+
+                <p class="baking-description">
+
+                  Cookies, brownies
+                  and more delicious treats.
+
+                </p>
+
+
+                <ul class="baking-info">
+
+
+                  <li>
+
+                    <span>
+                      ◷
+                    </span>
+
+                    2.5 Hours
+
+                  </li>
+
+
+                  <li>
+
+                    <span>
+                      ♙
+                    </span>
+
+                    Beginner
+
+                  </li>
+
+
+                  <li>
+
+                    <span>
+                      ▣
+                    </span>
+
+                    Every Fri, Sat &amp; Sun
+
+                  </li>
+
+
+                </ul>
+
+
+                <a href="#" class="baking-view-button" data-class="3">
+
+                  View Details
+
+                  <span>
+                    →
+                  </span>
+
+                </a>
+
+
+              </div>
+
+
+            </article>
+
+
+
+            <!-- ==================================================
+                 CLASS 4
+            =================================================== -->
+
+            <article class="baking-card">
+
+
+              <div class="baking-card-image">
+
+
+                <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=900&q=85"
+                  alt="Advanced Baking Class">
+
+
+              </div>
+
+
+
+              <div class="baking-card-content">
+
+
+                <span class="baking-number">
+                  04
+                </span>
+
+
+                <h2>
+                  CLASS 4
+                </h2>
+
+
+                <div class="baking-card-line"></div>
+
+
+                <p class="baking-description">
+
+                  Advanced baking
+                  for aspiring bakers.
+
+                </p>
+
+
+                <ul class="baking-info">
+
+
+                  <li>
+
+                    <span>
+                      ◷
+                    </span>
+
+                    4 Hours
+
+                  </li>
+
+
+                  <li>
+
+                    <span>
+                      ♙
+                    </span>
+
+                    Intermediate
+
+                  </li>
+
+
+                  <li>
+
+                    <span>
+                      ▣
+                    </span>
+
+                    Every Sat &amp; Sun
+
+                  </li>
+
+
+                </ul>
+
+
+                <a href="#" class="baking-view-button" data-class="4">
+
+                  View Details
+
+                  <span>
+                    →
+                  </span>
+
+                </a>
+
+
+              </div>
+
+
+            </article>
+
+
+          </div>
+
+
+
+          <!-- ==================================================
+               PRIVATE CLASS
+          =================================================== -->
+
+          <section class="private-class-box">
+
+
+            <div class="private-class-left">
+
+
+              <div class="private-class-icon">
+                ♨
+              </div>
+
+
+              <div>
+
+
+                <h3>
+                  Want a private class?
+                </h3>
+
+
+                <p>
+
+                  Book a private baking class for birthdays,
+                  team bonding or special occasions.
+
+                </p>
+
+
+              </div>
+
+
+            </div>
+
+
+            <a href="https://wa.me/60122413678" target="_blank" rel="noopener noreferrer" class="private-class-button">
+
+              <span>
+                ✉
+              </span>
+
+              Enquire Now
+
+            </a>
+
+
+          </section>
+
+
+        </section>
+
+
+      </div>
+
+
+    </div>
+
+
+
+    <!-- ==================================================
+         CLASS DETAILS
+         HIDDEN UNTIL VIEW DETAILS IS CLICKED
+    =================================================== -->
+
+    <section class="class-detail-page" id="classDetailView" style="display: none;">
+
+
+      <div class="class-detail-container">
+
+
+
+        <!-- ==================================================
+             BACK BUTTON
+        =================================================== -->
+
+        <button class="class-back-link" id="backToClasses" type="button">
+
+          ← Back to Baking Classes
+
+        </button>
+
+
+
+        <!-- ==================================================
+             DETAIL HERO
+        =================================================== -->
+
+        <section class="class-detail-hero">
+
+
+
+          <!-- IMAGE SIDE -->
+
+          <div class="class-detail-image">
+
+
+            <img id="classDetailImage" src="" alt="Chef Kecik Baking Class">
+
+
+            <span class="class-detail-number" id="classDetailNumber">
+
+              01
+
+            </span>
+
+
+          </div>
+
+
+
+          <!-- INFORMATION SIDE -->
+
+          <div class="class-detail-copy">
+
+
+            <p class="class-detail-label">
+
+              CHEF KECIK BAKING CLASS
+
+            </p>
+
+
+            <h1 id="classDetailTitle">
+
+              Baking Basics
+
+            </h1>
+
+
+            <div class="class-detail-decoration">
+
+
+              <span></span>
+
+
+              <i>
+                ♥
+              </i>
+
+
+              <span></span>
+
+
+            </div>
+
+
+            <p class="class-detail-intro" id="classDetailIntro">
+            </p>
+
+
+
+            <!-- ==================================================
+                 CLASS INFORMATION
+            =================================================== -->
+
+            <div class="class-detail-info">
+
+
+
+              <!-- DURATION -->
+
+              <div>
+
+
+                <span class="detail-icon">
+                  ◷
+                </span>
+
+
+                <div>
+
+
+                  <small>
+                    DURATION
+                  </small>
+
+
+                  <strong id="classDetailDuration">
+                  </strong>
+
+
+                </div>
+
+
+              </div>
+
+
+
+              <!-- LEVEL -->
+
+              <div>
+
+
+                <span class="detail-icon">
+                  ♙
+                </span>
+
+
+                <div>
+
+
+                  <small>
+                    LEVEL
+                  </small>
+
+
+                  <strong id="classDetailLevel">
+                  </strong>
+
+
+                </div>
+
+
+              </div>
+
+
+
+              <!-- SCHEDULE -->
+
+              <div>
+
+
+                <span class="detail-icon">
+                  ▣
+                </span>
+
+
+                <div>
+
+
+                  <small>
+                    SCHEDULE
+                  </small>
+
+
+                  <strong id="classDetailSchedule">
+                  </strong>
+
+
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 WHATSAPP ENQUIRY
+            =================================================== -->
+
+            <div class="class-detail-actions">
+
+
+              <a href="#" target="_blank" rel="noopener noreferrer" class="class-primary-button"
+                id="classWhatsappButton">
+
+                Enquire About This Class
+
+                <span>
+                  →
+                </span>
+
+              </a>
+
+
+            </div>
+
+
+          </div>
+
+
+        </section>
+
+
+
+        <!-- ==================================================
+             WHAT YOU WILL LEARN
+        =================================================== -->
+
+        <section class="class-learn-section">
+
+
+          <div class="class-section-heading">
+
+
+            <p>
+              WHAT TO EXPECT
+            </p>
+
+
+            <h2>
+              What You'll Learn
+            </h2>
+
+
+            <span>
+
+              Learn practical techniques and build
+              your confidence through hands-on baking.
+
+            </span>
+
+
+          </div>
+
+
+          <!-- JAVASCRIPT ADDS LEARNING CARDS HERE -->
+
+          <div class="class-learning-grid" id="classLearningGrid">
+          </div>
+
+
+        </section>
+
+
+
+        <!-- ==================================================
+             CLASS JOURNEY
+        =================================================== -->
+
+        <section class="class-journey-section">
+
+
+          <div class="class-section-heading center">
+
+
+            <p>
+              STEP BY STEP
+            </p>
+
+
+            <h2>
+              Your Class Journey
+            </h2>
+
+
+            <span>
+
+              A relaxed, hands-on baking experience
+              from start to finish.
+
+            </span>
+
+
+          </div>
+
+
+
+          <div class="class-journey-grid">
+
+
+
+            <!-- STEP 1 -->
+
+            <div class="journey-item">
+
+
+              <span class="journey-number">
+                01
+              </span>
+
+
+              <h3>
+                Welcome &amp; Introduction
+              </h3>
+
+
+              <p>
+
+                Meet your instructor and get familiar
+                with the recipe, ingredients and equipment.
+
+              </p>
+
+
+            </div>
+
+
+
+            <!-- STEP 2 -->
+
+            <div class="journey-item">
+
+
+              <span class="journey-number">
+                02
+              </span>
+
+
+              <h3>
+                Preparation
+              </h3>
+
+
+              <p>
+
+                Prepare your ingredients and learn
+                the correct techniques before baking.
+
+              </p>
+
+
+            </div>
+
+
+
+            <!-- STEP 3 -->
+
+            <div class="journey-item">
+
+
+              <span class="journey-number">
+                03
+              </span>
+
+
+              <h3>
+                Hands-On Baking
+              </h3>
+
+
+              <p>
+
+                Follow the process step by step
+                with guidance throughout the class.
+
+              </p>
+
+
+            </div>
+
+
+
+            <!-- STEP 4 -->
+
+            <div class="journey-item">
+
+
+              <span class="journey-number">
+                04
+              </span>
+
+
+              <h3>
+                Finish &amp; Enjoy
+              </h3>
+
+
+              <p>
+
+                Complete the finishing touches,
+                ask questions and enjoy what you created.
+
+              </p>
+
+
+            </div>
+
+
+          </div>
+
+
+        </section>
+
+
+
+        <!-- ==================================================
+             CLASS EXPERIENCE
+        =================================================== -->
+
+        <section class="class-included-section">
+
+
+          <div class="class-section-heading center">
+
+
+            <p>
+              EVERYTHING YOU NEED
+            </p>
+
+
+            <h2>
+              Class Experience
+            </h2>
+
+
+            <span>
+
+              Designed to make learning enjoyable,
+              practical and memorable.
+
+            </span>
+
+
+          </div>
+
+
+
+          <div class="class-included-grid">
+
+
+
+            <!-- INCLUDED 1 -->
+
+            <div class="included-card">
+
+
+              <span>
+                ♨
+              </span>
+
+
+              <h3>
+                Hands-On Learning
+              </h3>
+
+
+              <p>
+
+                Learn by doing with guidance
+                throughout the entire class.
+
+              </p>
+
+
+            </div>
+
+
+
+            <!-- INCLUDED 2 -->
+
+            <div class="included-card">
+
+
+              <span>
+                ♡
+              </span>
+
+
+              <h3>
+                Friendly Environment
+              </h3>
+
+
+              <p>
+
+                Enjoy a relaxed, comfortable and
+                welcoming learning experience.
+
+              </p>
+
+
+            </div>
+
+
+
+            <!-- INCLUDED 3 -->
+
+            <div class="included-card">
+
+
+              <span>
+                ✦
+              </span>
+
+
+              <h3>
+                Practical Skills
+              </h3>
+
+
+              <p>
+
+                Take home useful techniques
+                that you can practise again.
+
+              </p>
+
+
+            </div>
+
+
+          </div>
+
+
+        </section>
+
+
+
+        <!-- ==================================================
+             FINAL CTA
+        =================================================== -->
+
+        <section class="class-final-cta">
+
+
+          <div>
+
+
+            <p>
+              READY TO START?
+            </p>
+
+
+            <h2>
+
+              Bake something special
+              with us.
+
+            </h2>
+
+
+            <span>
+
+              Have a question about this class?
+              Contact Chef Kecik for availability
+              and more information.
+
+            </span>
+
+
+          </div>
+
+
+          <a href="#" target="_blank" rel="noopener noreferrer" id="classBottomWhatsapp">
+
+            Enquire Now
+
+            <span>
+              →
+            </span>
+
+          </a>
+
+
+        </section>
+
+
+      </div>
+
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- ==================================================
+       FOOTER
+  =================================================== -->
+
+  <?php include __DIR__ . '/components/footer.php'; ?>
+
+
+
+  <!-- ==================================================
+       SHARED JAVASCRIPT
+  =================================================== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

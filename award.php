@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chef Kecik homepage " />
+  <title>Chef Kecik</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <?php include __DIR__ . '/components/navbar.php'; ?>
+
+  <main id="top">
+    <div class="hero">
+      <section class="awards-section">
+
+        <div class="awards-header ck-container">
+          <span class="eyebrow">Our Achievements</span>
+          <h1>Awards</h1>
+          <p>
+            A collection of milestones and recognitions that celebrate
+            our passion, creativity, and dedication.
+          </p>
+        </div>
+
+
+        <div class="awards-timeline ck-container">
+
+          <!-- Award 01 -->
+          <div class="award-timeline-item">
+
+            <div class="award-year">
+              <span>2025</span>
+            </div>
+
+            <div class="award-dot"></div>
+
+            <div class="award-card">
+              <div class="award-image">
+                <img src="images/eco_majestic_1.jpeg" alt="Best Bakery Award">
+              </div>
+
+              <div class="award-info">
+                <span class="eyebrow">Our Achievement</span>
+
+                <h2>Best Bakery Award</h2>
+
+                <p>
+                  Recognised for our passion, creativity, and dedication
+                  to creating quality pastries and memorable experiences.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- Award 02 -->
+          <div class="award-timeline-item reverse">
+
+            <div class="award-year">
+              <span>2024</span>
+            </div>
+
+            <div class="award-dot"></div>
+
+            <div class="award-card">
+              <div class="award-image">
+                <img src="images/eco_majestic_1.jpeg" alt="Best Pastry Award">
+              </div>
+
+              <div class="award-info">
+                <span class="eyebrow">Our Achievement</span>
+
+                <h2>Best Pastry Award</h2>
+
+                <p>
+                  A recognition of our commitment to quality and creativity
+                  in every pastry we create.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- Award 03 -->
+          <div class="award-timeline-item">
+
+            <div class="award-year">
+              <span>2023</span>
+            </div>
+
+            <div class="award-dot"></div>
+
+            <div class="award-card">
+              <div class="award-image">
+                <img src="images/eco_majestic_1.jpeg" alt="Excellence Award">
+              </div>
+
+              <div class="award-info">
+                <span class="eyebrow">Our Achievement</span>
+
+                <h2>Excellence Award</h2>
+
+                <p>
+                  Honoured for our dedication to delivering excellent
+                  products and meaningful customer experiences.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- Award 04 -->
+          <div class="award-timeline-item reverse">
+
+            <div class="award-year">
+              <span>2022</span>
+            </div>
+
+            <div class="award-dot"></div>
+
+            <div class="award-card">
+              <div class="award-image">
+                <img src="images/eco_majestic_1.jpeg" alt="Community Recognition Award">
+              </div>
+
+              <div class="award-info">
+                <span class="eyebrow">Our Achievement</span>
+
+                <h2>Community Recognition</h2>
+
+                <p>
+                  Recognised for our contribution to the local community
+                  and our commitment to bringing people together.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+
+
+  <?php include __DIR__ . '/components/footer.php'; ?>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

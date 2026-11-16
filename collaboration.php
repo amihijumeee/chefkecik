@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chef Kecik homepage " />
+  <title>Chef Kecik</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <?php include __DIR__ . '/components/navbar.php'; ?>
+
+  <main id="top">
+    <div class="hero">
+      <section class="collaboration-section">
+
+        <div class="collaboration-header ck-container">
+          <span class="eyebrow">Our Collaborations</span>
+
+          <h1>Working Together</h1>
+
+          <p>
+            From creative partnerships to special events, we love
+            collaborating with brands and people who share our passion.
+          </p>
+        </div>
+
+
+        <div class="collaboration-grid ck-container">
+
+          <!-- Collaboration 01 -->
+          <article class="collaboration-card">
+
+            <div class="collaboration-image">
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik collaboration with Partner Name">
+            </div>
+
+            <div class="collaboration-content">
+
+              <span class="collaboration-type">
+                Brand Collaboration
+              </span>
+
+              <h2>Partner Name</h2>
+
+              <p>
+                A special collaboration created to bring together
+                our shared passion for food, creativity, and community.
+              </p>
+
+              <span class="collaboration-year">2025</span>
+
+            </div>
+
+          </article>
+
+
+          <!-- Collaboration 02 -->
+          <article class="collaboration-card">
+
+            <div class="collaboration-image">
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik collaboration with Partner Name">
+            </div>
+
+            <div class="collaboration-content">
+
+              <span class="collaboration-type">
+                Special Event
+              </span>
+
+              <h2>Partner Name</h2>
+
+              <p>
+                Working together on a memorable event filled with
+                delicious creations and meaningful experiences.
+              </p>
+
+              <span class="collaboration-year">2024</span>
+
+            </div>
+
+          </article>
+
+
+          <!-- Collaboration 03 -->
+          <article class="collaboration-card">
+
+            <div class="collaboration-image">
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik collaboration with Partner Name">
+            </div>
+
+            <div class="collaboration-content">
+
+              <span class="collaboration-type">
+                Creative Partnership
+              </span>
+
+              <h2>Partner Name</h2>
+
+              <p>
+                A creative partnership combining different ideas,
+                experiences, and flavours.
+              </p>
+
+              <span class="collaboration-year">2024</span>
+
+            </div>
+
+          </article>
+
+
+          <!-- Collaboration 04 -->
+          <article class="collaboration-card">
+
+            <div class="collaboration-image">
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik collaboration with Partner Name">
+            </div>
+
+            <div class="collaboration-content">
+
+              <span class="collaboration-type">
+                Community
+              </span>
+
+              <h2>Partner Name</h2>
+
+              <p>
+                Connecting with the community through food,
+                creativity, and shared experiences.
+              </p>
+
+              <span class="collaboration-year">2023</span>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <?php include __DIR__ . '/components/footer.php'; ?>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

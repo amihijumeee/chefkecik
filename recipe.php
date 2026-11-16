@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Chef Kecik Recipes">
+
+  <title>Chef Kecik</title>
+
+
+  <!-- GOOGLE FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet">
+
+
+  <!-- SHARED CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+  <!-- =========================================
+       NAVBAR
+  ========================================== -->
+
+  <?php include __DIR__ . '/components/navbar.php'; ?>
+
+
+
+  <!-- =========================================
+       ORIGINAL RECIPE PAGE
+  ========================================== -->
+
+  <main id="recipeOverview" class="recipe-page">
+
+
+    <section class="recipe-container">
+
+
+      <!-- PAGE HEADER -->
+
+      <div class="recipe-heading">
+
+        <h1>
+          RECIPES
+        </h1>
+
+        <br>
+
+        <p>
+          Simple, delicious, and made with love.
+          <br>
+          Try our easy baking recipes at home!
+        </p>
+      
+      </div>
+
+
+
+      <!-- =========================================
+           CATEGORY FILTERS
+      ========================================== -->
+
+      <div class="recipe-categories">
+
+
+        <button class="recipe-category active" data-recipe-filter="all">
+          All Recipes
+        </button>
+
+
+        <button class="recipe-category" data-recipe-filter="cakes">
+          Cakes
+        </button>
+
+
+        <button class="recipe-category" data-recipe-filter="cookies">
+          Cookies
+        </button>
+
+
+        <button class="recipe-category" data-recipe-filter="cupcakes">
+          Cupcakes
+        </button>
+
+
+        <button class="recipe-category" data-recipe-filter="desserts">
+          Desserts
+        </button>
+
+
+        <button class="recipe-category" data-recipe-filter="bread">
+          Breads
+        </button>
+
+
+        <button class="recipe-category" data-recipe-filter="basic">
+          Basic Recipes
+        </button>
+
+
+      </div>
+
+
+
+      <!-- =========================================
+           MAIN RECIPE CONTENT
+      ========================================== -->
+
+      <div class="recipe-main-layout">
+
+        <!-- =====================================
+             RECIPE CARDS
+        ====================================== -->
+
+        <section class="recipe-list-area">
+
+
+          <div class="recipe-grid" id="recipeGrid">
+
+
+
+            <!-- RECIPE 1 -->
+
+            <article class="recipe-card" data-recipe-category="cakes" data-recipe-id="1">
+
+
+              <a href="#" class="recipe-card-image">
+
+
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+                  alt="Classic Chocolate Cake">
+
+
+                <span class="recipe-time">
+                  ◷ 60 mins
+                </span>
+
+
+              </a>
+
+
+              <div class="recipe-card-content">
+
+
+                <h2>
+                  Classic Chocolate Cake
+                </h2>
+
+
+                <p>
+
+                  Rich and moist chocolate cake,
+                  perfect for any occasion.
+
+                </p>
+
+
+                <div class="recipe-meta">
+
+
+                  <span>
+                    ♨ Intermediate
+                  </span>
+
+
+                  <span>
+                    ♙ 8–10 servings
+                  </span>
+
+
+                </div>
+
+
+              </div>
+
+
+            </article>
+
+
+
+            <!-- RECIPE 2 -->
+
+            <article class="recipe-card" data-recipe-category="cupcakes" data-recipe-id="2">
+
+
+              <a href="#" class="recipe-card-image">
+
+
+                <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=900&q=85"
+                  alt="Red Velvet Cupcakes">
+
+
+                <span class="recipe-time">
+                  ◷ 45 mins
+                </span>
+
+
+              </a>
+
+
+              <div class="recipe-card-content">
+
+
+                <h2>
+                  Red Velvet Cupcakes
+                </h2>
+
+
+                <p>
+
+                  Soft and fluffy red velvet cupcakes
+                  topped with cream cheese frosting.
+
+                </p>
+
+
+                <div class="recipe-meta">
+
+
+                  <span>
+                    ♡ Beginner
+                  </span>
+
+
+                  <span>
+                    ♙ 10–12 cupcakes
+                  </span>
+
+
+                </div>
+
+
+              </div>
+
+
+            </article>
+
+
+
+            <!-- RECIPE 3 -->
+
+            <article class="recipe-card" data-recipe-category="cookies" data-recipe-id="3">
+
+
+              <a href="#" class="recipe-card-image">
+
+
+                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=85"
+                  alt="Chocolate Chip Cookies">
+
+
+                <span class="recipe-time">
+                  ◷ 30 mins
+                </span>
+
+
+              </a>
+
+
+              <div class="recipe-card-content">
+
+
+                <h2>
+                  Chocolate Chip Cookies
+                </h2>
+
+
+                <p>
+
+                  Crispy on the outside,
+                  chewy on the inside.
+                  Everyone's favourite!
+
+                </p>
+
+
+                <div class="recipe-meta">
+
+
+                  <span>
+                    ♡ Beginner
+                  </span>
+
+
+                  <span>
+                    ♙ 20–24 cookies
+                  </span>
+
+
+                </div>
+
+
+              </div>
+
+
+            </article>
+
+
+
+            <!-- RECIPE 4 -->
+
+            <article class="recipe-card" data-recipe-category="cakes" data-recipe-id="4">
+
+
+              <a href="#" class="recipe-card-image">
+
+
+                <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=900&q=85"
+                  alt="Mango Passion Cake">
+
+
+                <span class="recipe-time">
+                  ◷ 50 mins
+                </span>
+
+
+              </a>
+
+
+              <div class="recipe-card-content">
+
+
+                <h2>
+                  Mango Passion Cake
+                </h2>
+
+
+                <p>
+
+                  Light vanilla sponge with
+                  mango and passionfruit cream.
+
+                </p>
+
+
+                <div class="recipe-meta">
+
+
+                  <span>
+                    ♨ Intermediate
+                  </span>
+
+
+                  <span>
+                    ♙ 8–10 servings
+                  </span>
+
+
+                </div>
+
+
+              </div>
+
+
+            </article>
+
+
+          </div>
+
+
+
+          <!-- EMPTY FILTER MESSAGE -->
+
+          <div class="recipe-empty" id="recipeEmpty">
+
+            No recipes are available
+            in this category yet.
+
+          </div>
+
+
+
+          <!-- VIEW ALL -->
+
+          <div class="recipe-view-all">
+
+
+            <a href="#">
+
+              View All Recipes
+
+              <span>
+                →
+              </span>
+
+            </a>
+
+
+          </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             RIGHT SIDEBAR
+        ====================================== -->
+
+        <aside class="recipe-sidebar">
+
+
+
+          <!-- BAKING TIPS -->
+
+          <div class="recipe-side-card baking-made-easy">
+
+
+            <h3>
+
+              Baking Made Easy
+
+              <span>
+                ♥
+              </span>
+
+            </h3>
+
+
+            <p>
+
+              Simple tips and tricks
+              to help you bake with confidence.
+
+            </p>
+
+
+            <a href="#">
+
+              Baking Tips &amp; Guides
+
+            </a>
+
+
+          </div>
+
+
+
+          <!-- INSTAGRAM -->
+
+          <div class="recipe-side-card instagram-card">
+
+
+            <h3>
+
+              Follow Us on Instagram
+
+              <span>
+                ♥
+              </span>
+
+            </h3>
+
+
+            <p>
+
+              More bakes, behind-the-scenes
+              and daily sweetness!
+
+            </p>
+
+
+            <div class="instagram-grid">
+
+
+              <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=300&q=80"
+                alt="Chef Kecik Cake">
+
+
+              <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=300&q=80"
+                alt="Chef Kecik Cookies">
+
+
+              <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=300&q=80"
+                alt="Chef Kecik Cupcakes">
+
+
+              <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=300&q=80"
+                alt="Chef Kecik Cake">
+
+
+            </div>
+
+
+            <a href="#" class="instagram-link">
+
+              ◎ chefkecik_
+
+            </a>
+
+
+          </div>
+
+
+        </aside>
+
+
+      </div>
+
+
+
+      <!-- =========================================
+           NEWSLETTER
+      ========================================== -->
+
+      <section class="recipe-newsletter">
+
+
+        <div class="recipe-newsletter-icon">
+          ✉
+        </div>
+
+
+        <div class="recipe-newsletter-copy">
+
+
+          <h3>
+            Never Miss a Recipe!
+          </h3>
+
+
+          <p>
+
+            Subscribe to get new recipes,
+            baking tips and special updates
+            straight to your inbox.
+
+          </p>
+
+
+        </div>
+
+
+        <form class="recipe-newsletter-form" id="recipeNewsletterForm">
+
+
+          <input type="email" id="recipeEmail" placeholder="Enter your email" required>
+
+
+          <button type="submit">
+            Subscribe
+          </button>
+
+
+        </form>
+
+
+        <span class="recipe-newsletter-message" id="recipeNewsletterMessage"></span>
+
+
+      </section>
+
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- ============================================================
+       RECIPE DETAIL VIEW
+       HIDDEN UNTIL RECIPE CARD IS CLICKED
+  ============================================================= -->
+
+  <main class="recipe-detail-page" id="recipeDetailView" style="display: none;">
+
+
+    <div class="recipe-detail-container">
+
+
+
+      <!-- BACK -->
+
+      <a href="#" class="recipe-detail-back" id="backToRecipes">
+
+        ← Back to Recipes
+
+      </a>
+
+
+
+      <!-- =========================================
+           HERO
+      ========================================== -->
+
+      <section class="recipe-detail-hero">
+
+
+
+        <!-- IMAGE -->
+
+        <div class="recipe-detail-image">
+
+
+          <img id="recipeDetailImage" src="" alt="Chef Kecik Recipe">
+
+
+          <span class="recipe-detail-category" id="recipeDetailCategory">
+
+            CAKES
+
+          </span>
+
+
+        </div>
+
+
+
+        <!-- DETAILS -->
+
+        <div class="recipe-detail-copy">
+
+
+          <p class="recipe-detail-label">
+
+            CHEF KECIK RECIPE
+
+          </p>
+
+
+          <h1 id="recipeDetailTitle">
+
+            Classic Chocolate Cake
+
+          </h1>
+
+
+          <div class="recipe-detail-decoration">
+
+            <span></span>
+
+            <i>
+              ♥
+            </i>
+
+            <span></span>
+
+          </div>
+
+
+          <p class="recipe-detail-description" id="recipeDetailDescription"></p>
+
+
+
+          <!-- META -->
+
+          <div class="recipe-detail-meta">
+
+
+
+            <div>
+
+
+              <span>
+                ◷
+              </span>
+
+
+              <div>
+
+                <small>
+                  TIME
+                </small>
+
+                <strong id="recipeDetailTime">
+                </strong>
+
+              </div>
+
+
+            </div>
+
+
+
+            <div>
+
+
+              <span>
+                ♨
+              </span>
+
+
+              <div>
+
+                <small>
+                  DIFFICULTY
+                </small>
+
+                <strong id="recipeDetailLevel">
+                </strong>
+
+              </div>
+
+
+            </div>
+
+
+
+            <div>
+
+
+              <span>
+                ♙
+              </span>
+
+
+              <div>
+
+                <small>
+                  SERVINGS
+                </small>
+
+                <strong id="recipeDetailServing">
+                </strong>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+          <p class="recipe-detail-note">
+
+            Made with love, best enjoyed
+            with family and friends.
+
+          </p>
+
+
+        </div>
+
+
+      </section>
+
+
+
+      <!-- =========================================
+           INGREDIENTS + METHOD
+      ========================================== -->
+
+      <section class="recipe-method-section">
+
+
+
+        <!-- INGREDIENTS -->
+
+        <div class="recipe-ingredients">
+
+
+          <div class="recipe-section-title">
+
+
+            <p>
+              WHAT YOU'LL NEED
+            </p>
+
+
+            <h2>
+              Ingredients
+            </h2>
+
+
+          </div>
+
+
+          <div class="ingredients-list" id="recipeIngredients"></div>
+
+
+        </div>
+
+
+
+        <!-- METHOD -->
+
+        <div class="recipe-instructions">
+
+
+          <div class="recipe-section-title">
+
+
+            <p>
+              LET'S BAKE
+            </p>
+
+
+            <h2>
+              Method
+            </h2>
+
+
+          </div>
+
+
+          <div class="recipe-steps" id="recipeSteps"></div>
+
+
+        </div>
+
+
+      </section>
+
+
+
+      <!-- =========================================
+           CHEF TIP
+      ========================================== -->
+
+      <section class="recipe-tip-box">
+
+
+        <div class="recipe-tip-icon">
+
+          ♡
+
+        </div>
+
+
+        <div>
+
+
+          <p>
+            CHEF KECIK TIP
+          </p>
+
+
+          <h3>
+            A little baking tip
+          </h3>
+
+
+          <span id="recipeTip">
+          </span>
+
+
+        </div>
+
+
+      </section>
+
+
+
+      <!-- =========================================
+           BOTTOM CTA
+      ========================================== -->
+
+      <section class="recipe-detail-bottom">
+
+
+        <div>
+
+
+          <p>
+            LOVE THIS RECIPE?
+          </p>
+
+
+          <h2>
+            Happy baking!
+          </h2>
+
+
+          <span>
+
+            Explore more simple and delicious
+            recipes from Chef Kecik.
+
+          </span>
+
+
+        </div>
+
+
+        <a href="#" id="exploreMoreRecipes">
+
+          Explore More Recipes
+
+          <span>
+            →
+          </span>
+
+        </a>
+
+
+      </section>
+
+
+    </div>
+
+
+  </main>
+
+
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+  <?php include __DIR__ . '/components/footer.php'; ?>
+
+
+
+  <!-- =========================================
+       SHARED JAVASCRIPT
+  ========================================== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

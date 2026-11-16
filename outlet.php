@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chef Kecik homepage " />
+    <title>Chef Kecik</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <?php include __DIR__ . '/components/navbar.php'; ?>
+    <!-- OUTLET CONTENT -->
+    <main id="top">
+        <div class="hero">
+            <section class="outlet-page">
+
+                <!-- =========================================
+             ECO MAJESTIC
+        ========================================== -->
+
+                <div id="eco-majestic" class="outlet-info">
+
+                    <h1>Chef Kecik Eco Majestic</h1>
+
+                    <!-- TWO PICTURES -->
+                    <div class="outlet-images">
+
+                        <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+                        <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+                    </div>
+
+                    <!-- LOCATION -->
+                    <div class="outlet-details">
+
+                        <h3>Location</h3>
+
+                        <p>
+                            Lot LG-01 & Lot G-06, Majestic Labs, 1, Jalan Eco Majestic 10/2, 43500 Beranang, Selangor
+                        </p>
+
+                        <!-- GOOGLE MAPS -->
+                        <a href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwj4psW62KeWAxUAAAAAHQAAAAAQHA..i&sca_esv=63b230156fc05cdb&client=firefox-b-d&hs=4hSq&pvq=OiUweDMxY2RjZmJiZDYzM2EzMGI6MHgzNzU1MzUwMDQxMjMzYmE1&fvr=1&cs=0&um=1&ie=UTF-8&fb=1&gl=my&sa=X&ftid=0x31cdcfbbd633a30b:0x3755350041233ba5"
+                            target="_blank" class="maps-button">
+                            View on Google Maps
+                        </a>
+
+                        <!-- <div class="outlet-map">
+
+                        <iframe
+                            src="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwj4psW62KeWAxUAAAAAHQAAAAAQHA..i&sca_esv=63b230156fc05cdb&client=firefox-b-d&hs=4hSq&pvq=OiUweDMxY2RjZmJiZDYzM2EzMGI6MHgzNzU1MzUwMDQxMjMzYmE1&fvr=1&cs=0&um=1&ie=UTF-8&fb=1&gl=my&sa=X&ftid=0x31cdcfbbd633a30b:0x3755350041233ba5"
+                            loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                    </div> -->
+
+                        <!-- WORKING HOURS -->
+                        <h3>Opening Hours</h3>
+
+                        <p>
+                            Monday - Sunday<br>
+                            8:00 AM - 10:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================================
+             SEDUDUK
+        ========================================== -->
+
+                <div id="seduduk" class="outlet-info">
+
+                    <h1>Chef Kecik Seduduk</h1>
+
+                    <!-- TWO PICTURES -->
+                    <div class="outlet-images">
+
+                        <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Seduduk">
+
+                        <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Seduduk">
+
+                    </div>
+
+                    <!-- LOCATION -->
+                    <div class="outlet-details">
+
+                        <h3>Location</h3>
+
+                        <!-- <p>
+                        Se.Duduk Square<br>
+                        Jln Kajang Villa<br>
+                        43000 Kajang<br>
+                        Selangor
+                    </p> -->
+
+                        <p>
+                            Se.Duduk Square,
+                            Jln Kajang Villa,
+                            43000 Kajang,
+                            Selangor
+                        </p>
+
+                        <!-- GOOGLE MAPS -->
+                        <a href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwj4psW62KeWAxUAAAAAHQAAAAAQLA..i&sca_esv=63b230156fc05cdb&client=firefox-b-d&hs=4hSq&pvq=Cg0vZy8xMXkzbmJ6MWxxIhwKFmNoZWYga2VjaWsgYm91bGFuZ2VyaWUQAhgD&lqi=ChZjaGVmIGtlY2lrIGJvdWxhbmdlcmllSNaMvMWOvYCACFoyEAAQARACGAAYARgCIhZjaGVmIGtlY2lrIGJvdWxhbmdlcmllKggIAhAAEAEQAjICbXOSAQRjYWZl&fvr=1&cs=0&um=1&ie=UTF-8&fb=1&gl=my&sa=X&ftid=0x31cdcd8b8f0b14bd:0xa5317eb0c486cce3"
+                            target="_blank" class="maps-button">
+                            View on Google Maps
+                        </a>
+
+                        <!-- WORKING HOURS -->
+                        <h3>Opening Hours</h3>
+
+                        <p>
+                            Monday - Sunday<br>
+                            8:00 AM - 7:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================================
+             TUAH
+        ========================================== -->
+
+                <div id="tuah" class="outlet-info">
+
+                    <h1>Chef Kecik Tuah</h1>
+
+                    <!-- TWO PICTURES -->
+                    <div class="outlet-images">
+
+                        <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Tuah">
+
+                        <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Tuah">
+
+                    </div>
+
+                    <!-- LOCATION -->
+                    <div class="outlet-details">
+
+                        <h3>Location</h3>
+
+                        <!-- <p>
+                        G-99 &G-100, Lalaport PENJARA PUDU<br>
+                        Mitsui Shopping Park 2<br>
+                        Jln Hang Tuah<br> 
+                        Bukit Bintang 55100<br>
+                        Wilayah Persekutuan<br>
+                        Federal Territory of Kuala Lumpur<br>
+                    </p> -->
+
+                        <p>
+                            G-99 &G-100, Lalaport PENJARA PUDU,
+                            Mitsui Shopping Park, 2
+                            Jln Hang Tuah,
+                            Bukit Bintang 55100,
+                            Wilayah Persekutuan,
+                            Federal Territory of Kuala Lumpur
+                        </p>
+
+                        <!-- GOOGLE MAPS -->
+                        <a href="https://maps.app.goo.gl/CkcM6TuzkkbVmmrs7" target="_blank" class="maps-button">
+                            View on Google Maps
+                        </a>
+
+                        <!-- WORKING HOURS -->
+                        <h3>Opening Hours</h3>
+
+                        <p>
+                            Monday - Sunday<br>
+                            8:00 AM - 10:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <?php include __DIR__ . '/components/footer.php'; ?>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chef Kecik homepage " />
+  <title>Chef Kecik</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <?php include __DIR__ . '/components/navbar.php'; ?>
+
+  <main id="top">
+
+    <!-- =========================================
+       HERO
+  ========================================== -->
+
+    <section class="hero">
+
+      <div class="hero-inner ck-container">
+
+        <div class="hero-copy ">
+
+          <p class="eyebrow">
+            WELCOME TO CHEF KECIK
+          </p>
+
+          <h1>
+            A Little Place<br>
+            <em>For Sweet Moments.</em>
+          </h1>
+
+          <p class="hero-text">
+            Discover freshly baked treats, explore delicious recipes,
+            join our baking classes and find everything you need
+            for your next sweet moment.
+          </p>
+
+          <div class="hero-actions">
+
+            <a class="ck-btn ck-btn-dark" href="#explore">
+              Explore Chef Kecik
+            </a>
+
+            <a class="ck-btn ck-btn-light" href="outlet.php">
+              Find Our Outlet
+            </a>
+
+          </div>
+
+          <!-- <div class="hero-features">
+
+          <div>
+            <span>✦</span>
+            <p>
+              Freshly Made<br>
+              Every Day
+            </p>
+          </div>
+
+          <div>
+            <span>◇</span>
+            <p>
+              Premium<br>
+              Ingredients
+            </p>
+          </div>
+
+          <div>
+            <span>♧</span>
+            <p>
+              Made with Care<br>
+              Always
+            </p>
+          </div>
+
+        </div> -->
+
+        </div>
+
+
+        <div class="hero-visual ">
+
+          <div class="hero-image-wrap">
+
+            <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+       EXPLORE CHEF KECIK
+  ========================================== -->
+
+    <section class="section explore-section" id="explore">
+
+      <div class="ck-container">
+
+        <div class="section-heading">
+
+          <div>
+
+            <p class="eyebrow">
+              DISCOVER MORE
+            </p>
+
+            <h2>
+              Explore<br>
+              <em>Chef Kecik.</em>
+            </h2>
+
+          </div>
+
+          <p class="explore-intro">
+            Everything you need to discover, enjoy and
+            experience Chef Kecik — all in one place.
+          </p>
+
+        </div>
+
+
+        <div class="explore-grid">
+
+
+          <!-- SHOP -->
+
+          <a href="shoppe.php" class="explore-card">
+
+            <div class="explore-card-image">
+
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+            </div>
+
+            <div class="explore-card-content">
+
+              <span class="explore-number">01</span>
+
+              <h3>Shop</h3>
+
+              <p>
+                Explore our freshly baked pastries,
+                cakes, breads and delicious treats.
+              </p>
+
+              <span class="explore-link">
+                Explore Shop →
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- BAKING CLASS -->
+
+          <a href="bakingclass.php" class="explore-card">
+
+            <div class="explore-card-image">
+
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+            </div>
+
+            <div class="explore-card-content">
+
+              <span class="explore-number">02</span>
+
+              <h3>Baking Class</h3>
+
+              <p>
+                Learn, bake and create with Chef Kecik
+                through fun and hands-on baking classes.
+              </p>
+
+              <span class="explore-link">
+                Learn More →
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- RECIPES -->
+
+          <a href="recipe.php" class="explore-card">
+
+            <div class="explore-card-image">
+
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+            </div>
+
+            <div class="explore-card-content">
+
+              <span class="explore-number">03</span>
+
+              <h3>Recipes</h3>
+
+              <p>
+                Discover delicious recipes and get
+                inspired to create something at home.
+              </p>
+
+              <span class="explore-link">
+                View Recipes →
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- OUTLETS -->
+
+          <a href="outlet.php" class="explore-card">
+
+            <div class="explore-card-image">
+
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+            </div>
+
+            <div class="explore-card-content">
+
+              <span class="explore-number">04</span>
+
+              <h3>Our Outlets</h3>
+
+              <p>
+                Find a Chef Kecik outlet near you
+                and come visit us.
+              </p>
+
+              <span class="explore-link">
+                Find Us →
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- EVENTS -->
+
+          <a href="event.php" class="explore-card">
+
+            <div class="explore-card-image">
+
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+            </div>
+
+            <div class="explore-card-content">
+
+              <span class="explore-number">05</span>
+
+              <h3>Events & Parties</h3>
+
+              <p>
+                Make your celebrations extra special
+                with Chef Kecik.
+              </p>
+
+              <span class="explore-link">
+                Plan Your Event →
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <!-- MEDIA -->
+
+          <a href="award.php" class="explore-card">
+
+            <div class="explore-card-image">
+
+              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+            </div>
+
+            <div class="explore-card-content">
+
+              <span class="explore-number">06</span>
+
+              <h3>Media</h3>
+
+              <p>
+                See our latest moments, updates,
+                activities and stories.
+              </p>
+
+              <span class="explore-link">
+                View Media →
+              </span>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+       ABOUT PREVIEW
+  ========================================== -->
+
+    <section class="section about-preview">
+
+      <div class="ck-container">
+
+        <div class="about-preview-grid">
+
+          <div class="about-preview-image">
+
+            <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+
+          </div>
+
+
+          <div class="about-preview-copy">
+
+            <p class="eyebrow">
+              A LITTLE ABOUT US
+            </p>
+
+            <h2>
+              More Than<br>
+              <em>Just A Bakery.</em>
+            </h2>
+
+            <p>
+              At Chef Kecik, we believe that good food brings
+              people together. From freshly baked treats to
+              fun baking experiences, everything we create
+              is made with care and a whole lot of heart.
+            </p>
+
+            <a href="about.php" class="text-link">
+              Discover Our Story
+              <span>→</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+       EXPLORE 
+  ========================================== -->
+    <!-- 
+  <section class="section homepage-cta">
+
+    <div class="ck-container">
+
+      <div class="homepage-cta-inner">
+
+        <p class="eyebrow">
+          COME AND EXPERIENCE CHEF KECIK
+        </p>
+
+        <h2>
+          Something Sweet<br>
+          <em>Is Waiting For You.</em>
+        </h2>
+
+        <p>
+          Whether you're looking for something delicious,
+          a new baking experience or a place to celebrate,
+          there's something waiting for you at Chef Kecik.
+        </p>
+
+        <div class="hero-actions">
+
+          <a
+            href="outlet.php"
+            class="ck-btn ck-btn-dark"
+          >
+            Explore Our Shop
+          </a>
+
+          <a
+            href="contact.php"
+            class="ck-btn ck-btn-light"
+          >
+            Contact Us
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section> -->
+
+  </main>
+
+  <?php include __DIR__ . '/components/footer.php'; ?>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
