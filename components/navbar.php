@@ -21,6 +21,7 @@
           </li>
           <li class="nav-item"><a class="nav-link" href="bakingclass.php">Baking Class</a></li>
           <li class="nav-item"><a class="nav-link" href="recipe.php">Recipe</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.php">Menu</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Outlet</a>
             <ul class="dropdown-menu">

@@ -25,11 +25,37 @@
     <div class="hero">
       <div class="hero-inner ck-container">
         <div class="hero-copy ">
-          <p class="eyebrow">CRAFTED WITH CARE. SHARED WITH LOVE.</p>
+          <!-- <p class="eyebrow">CRAFTED WITH CARE. SHARED WITH LOVE.</p> -->
           <h1>About<br><em>Chef Kecik.</em></h1>
           <p class="hero-text">
-            Thoughtfully crafted pastries and cakes, made with premium ingredients
-            and a whole lot of heart.
+            Chef Kecik (CK) is more than just a bakery. It is a story of passion,
+            dedication, and the belief that anyone can turn their passion into
+            something meaningful.
+
+            <br><br>
+
+            Founded through a love for baking, Chef Kecik began by sharing baking
+            tips and recipes online. As its community grew, CK expanded into baking
+            classes for beginners and advanced learners, inspiring people to develop
+            their skills and start their own home-based baking businesses.
+
+            <br><br>
+
+            Today, Chef Kecik Kitchen has proudly taught over <strong>30,000 students
+            worldwide</strong>, helping them improve their baking skills and create
+            new opportunities through baking.
+
+            <br><br>
+
+            From its humble beginnings, Chef Kecik has grown into a brand with
+            multiple outlets, including Chef Kecik Café, Chef Kecik Boulangerie,
+            and a dedicated production bakehouse.
+
+            <br><br>
+
+            With a commitment to quality, creativity, and community empowerment,
+            Chef Kecik continues its journey to become one of Malaysia's leading
+            baking brands.
           </p>
 
           <!-- <div class="hero-features">
@@ -48,7 +74,7 @@
 
         <div class="hero-visual ">
           <div class="hero-image-wrap">
-            <img src="images/eco_majestic_1.jpeg" alt="About">
+            <img src="images/chef.jpg" alt="About">
           </div>
           <!-- <span class="floating-note">Made for little celebrations</span> -->
         </div>

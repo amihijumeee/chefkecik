@@ -38,8 +38,8 @@
           </p>
 
           <h1>
-            A Little Place<br>
-            <em>For Sweet Moments.</em>
+            A Kampung Boy who bakes<br>
+            <!-- <em>who bakes.</em> -->
           </h1>
 
           <p class="hero-text">
@@ -95,7 +95,7 @@
 
           <div class="hero-image-wrap">
 
-            <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+            <img src="images/shiopan.jpg" alt="Chef Kecik Eco Majestic">
 
           </div>
 
@@ -146,7 +146,7 @@
 
             <div class="explore-card-image">
 
-              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+              <img src="images/cookies.jpg" alt="Chef Kecik Eco Majestic">
 
             </div>
 
@@ -176,7 +176,7 @@
 
             <div class="explore-card-image">
 
-              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+              <img src="images/bakingclass.jpg" alt="Chef Kecik Eco Majestic">
 
             </div>
 
@@ -206,7 +206,7 @@
 
             <div class="explore-card-image">
 
-              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+              <img src="images/browniestart1.jpg" alt="Chef Kecik Eco Majestic">
 
             </div>
 
@@ -266,7 +266,7 @@
 
             <div class="explore-card-image">
 
-              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+              <img src="images/event1.jpg" alt="Chef Kecik Eco Majestic">
 
             </div>
 
@@ -296,7 +296,7 @@
 
             <div class="explore-card-image">
 
-              <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+              <img src="images/elle_vive.jpg" alt="Chef Kecik Eco Majestic">
 
             </div>
 
@@ -338,7 +338,7 @@
 
           <div class="about-preview-image">
 
-            <img src="images/eco_majestic_1.jpeg" alt="Chef Kecik Eco Majestic">
+            <img src="images/cikin.jpg" alt="Chef Kecik Eco Majestic">
 
           </div>
 
